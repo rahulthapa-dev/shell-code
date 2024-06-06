@@ -1,0 +1,36 @@
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
+import BlogContainer from "@/components/Blog/BlogContainer";
+import ContactSection from "@/components/Contact"
+const Blog = () => {
+    return (
+        <div className="relative pb-0 pt-24 bg-[#0D0D0D]">
+            <Header/>
+            <div class="relative py-16 blog-banner px-8">
+                <p className="font-sf-medium text-[#D90C0C] text-2xl lg:text-5xl mb-6 lg:mb-16">Blogs</p>
+                <p className="text-white font-clash-regular text-3xl lg:text-8xl">
+                    Get <span className="text-[#ff0000]">insights</span> into tech and business sphere of app development.
+                </p>
+            </div>
+            <div class="relative px-4 lg:px-8 py-3 lg:py-16 lg:space-y-16 space-y-2">
+                <div className="flex flex-wrap gap-x-3">
+                    <a href="" className="mt-5 text-xs lg:text-lg xl:text-2xl text-white font-clash-medium px-3 lg:px-8 py-3 bg-[#6F0000] border border-white rounded-[79px]">All Categories</a>
+                    <a href="" className="mt-5 text-xs lg:text-lg xl:text-2xl text-white font-clash-medium px-3 lg:px-8 py-3 bg-transparent hover:bg-[#6F0000] border border-white border-solid rounded-[79px]">Website Development</a>
+                    <a href="" className="mt-5 text-xs lg:text-lg xl:text-2xl text-white font-clash-medium px-3 lg:px-8 py-3 bg-transparent hover:bg-[#6F0000] border border-white border-solid rounded-[79px]">Application Development</a>
+                    <a href="" className="mt-5 text-xs lg:text-lg xl:text-2xl text-white font-clash-medium px-3 lg:px-8 py-3 bg-transparent hover:bg-[#6F0000] border border-white border-solid rounded-[79px]">Product Design</a>
+                </div>
+            </div>
+            <div class="relative px-0 py-3 lg:py-16 lg:space-y-16 space-y-2">
+                <div className="lg:grid lg:grid-cols-12 lg:gap-8">
+                    <div className="lg:col-span-12">
+                        <BlogContainer />
+                    </div>
+                </div>
+            </div>
+            <ContactSection />
+            <Footer />
+        </div>
+    )
+}
+
+export default Blog
