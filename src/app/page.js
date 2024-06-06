@@ -85,8 +85,8 @@ const HomePage = () => {
                             </div>
                         </section>
                         <section className="overflow-hidden">
-                            <div className="relative marq-wrap mt-12 lg:mt-36">
-                                <div className="bg-white border border-black py-2 sm:py-5 px-5 marquee relative overflow-hidden marq-1">
+                            <div className="relative marq-wrap marq-wrap-ribbon mt-12 lg:mt-36">
+                                <div className="bg-white  border border-black py-2 sm:py-5 px-5 marquee relative overflow-hidden marq-1">
                                     <div className="marquee__group">
                                         <ul className="flex gap-x-5 lg:gap-x-14 text-black font-clash-bold text-2xl lg:text-5xl justify-center marq">
                                             <li>Web Development</li>  
@@ -111,7 +111,7 @@ const HomePage = () => {
                                 </div>
                                 <div className="bg-white border border-black py-2 sm:py-5 px-5 marq-2 marquee marquee--reverse relative overflow-hidden">
                                     <div className="marquee__group">
-                                        <ul className="flex gap-x-5 gap-x-14 text-black font-clash-bold text-2xl lg:text-5xl justify-center marq">
+                                        <ul className="flex gap-x-5 text-black font-clash-bold text-2xl lg:text-5xl justify-center marq">
                                             <li>Web Development</li>  
                                             <li><Image src={Star} alt="star" className="size-8 lg:size-12 "></Image></li>  
                                             <li>App Development</li>
