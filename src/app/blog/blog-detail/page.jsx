@@ -99,7 +99,7 @@ const BlogSingle = () => {
                         <div className="w-full border-t border-white/10"></div>
                     </div>
                 </div>
-                <div class="relative pe-4 ps-4 py-3 lg:py-16 lg:space-y-16 space-y-4">
+                <div className="relative pe-4 ps-4 py-3 lg:py-16 lg:space-y-16 space-y-4">
                     <div className="absolute right-0 top-0 z-0">
                         <Image src={BoxRight} alt="box"></Image>
                     </div>

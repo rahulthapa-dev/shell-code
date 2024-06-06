@@ -56,8 +56,8 @@ const HomeComponent = () => {
                                         <div className="flex">
                                             <button onClick={() => setOpen(false)} type="button" className="-m-2.5 inline-flex items-center justify-center rounded-3xl py-3 px-3 text-white font-clash-medium bg-white/20">
                                                 <span className="sr-only">Open main menu</span>
-                                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" class="size-6">
-                                                <path strokeLinecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+                                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-6">
+                                                <path strokeLinecap="round" strokeLinejoin="round" d="M6 18 18 6M6 6l12 12" />
                                                 </svg>
                                             </button>
                                         </div>
@@ -121,7 +121,7 @@ const HomeComponent = () => {
                     <button onClick={() => setOpen(true)} type="button" className="-m-2.5 inline-flex items-center justify-center rounded-3xl py-3 px-3 text-white font-clash-medium bg-white/20">
                         <span className="sr-only">Open main menu</span>
                         <svg className="h-5 w-5 lg:me-2" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" aria-hidden="true">
-                            <path strokeLinecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
                         </svg>
                         <span className="hidden lg:inline-block">Menu</span>
                     </button>

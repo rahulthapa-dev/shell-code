@@ -71,8 +71,8 @@ const ServiceDetail = () => {
         <section className="py-10 lg:py-16 bg-[#0D0D0D] connect-us">
             <div className="mx-auto max-w-5xl sm:px-6 lg:px-8 space-y-16 text-center leading-10 lg:leading-[70px]">
                 <p className="text-white text-2xl lg:text-6xl font-clash-medium">Have a <br /> Project in<br /> Mind?</p>
-                <button className="inline-flex items-center gap-x-3 text-lg xl:text-2xl text-white font-clash-medium px-8 py-3 bg-transoarent hover:bg-[#6F0000] border border-white border-solid rounded-[79px]"><span>Connect with us</span> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" class="size-6">
-                    <path strokeLinecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                <button className="inline-flex items-center gap-x-3 text-lg xl:text-2xl text-white font-clash-medium px-8 py-3 bg-transoarent hover:bg-[#6F0000] border border-white border-solid rounded-[79px]"><span>Connect with us</span> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-6">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
                     </svg>
                 </button>
             </div>

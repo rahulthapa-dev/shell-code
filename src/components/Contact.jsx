@@ -12,8 +12,8 @@ const ContactSection = () => {
                 <div className="lg:grid lg:grid-cols-12 lg:gap-8">
                     <div className="lg:col-span-5">
                         <h2 className="font-sf text-white text-3xl lg:text-[89px] relative mb-4 lg:mb-8">
-                            <span className=" leading-[5.5rem] relative">Lets work Together <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-12 lg:absolute right-[-60px] bottom-[21px] lg:inline-block hidden">
-                                <path fill-rule="evenodd" d="M3.97 3.97a.75.75 0 0 1 1.06 0l13.72 13.72V8.25a.75.75 0 0 1 1.5 0V19.5a.75.75 0 0 1-.75.75H8.25a.75.75 0 0 1 0-1.5h9.44L3.97 5.03a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" />
+                            <span className=" leading-[5.5rem] relative">Lets work Together <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-12 lg:absolute right-[-60px] bottom-[21px] lg:inline-block hidden">
+                                <path fill-rule="evenodd" d="M3.97 3.97a.75.75 0 0 1 1.06 0l13.72 13.72V8.25a.75.75 0 0 1 1.5 0V19.5a.75.75 0 0 1-.75.75H8.25a.75.75 0 0 1 0-1.5h9.44L3.97 5.03a.75.75 0 0 1 0-1.06Z" clipRule="evenodd" />
                             </svg></span> 
                             
                         </h2>
@@ -48,19 +48,19 @@ const ContactSection = () => {
                                     <div className="sm:col-span-3">
                                         <label htmlFor="first-name" className="block text-base font-sf leading-6 text-white">First name</label>
                                         <div className="mt-2">
-                                            <input type="text" name="first-name" id="first-name" autocomplete="given-name" className="block w-full rounded-md border bg-[#1C1C1C] border-[#636D79] py-1.5 text-white shadow-sm ring-0 ring-inset focus:ring-0 sm:leading-6 min-h-14 px-3 text-base font-sf" />
+                                            <input type="text" name="first-name" id="first-name" autoComplete="given-name" className="block w-full rounded-md border bg-[#1C1C1C] border-[#636D79] py-1.5 text-white shadow-sm ring-0 ring-inset focus:ring-0 sm:leading-6 min-h-14 px-3 text-base font-sf" />
                                         </div>
                                     </div>
                                     <div className="sm:col-span-3">
                                         <label htmlFor="last-name" className="block text-base font-sf leading-6 text-white">Last name</label>
                                         <div className="mt-2">
-                                            <input type="text" name="last-name" id="last-name" autocomplete="family-name" className="block w-full rounded-md border bg-[#1C1C1C] border-[#636D79] py-1.5 text-white shadow-sm ring-0 ring-inset focus:ring-0 sm:leading-6 min-h-14 px-3 text-base font-sf" />
+                                            <input type="text" name="last-name" id="last-name" autoComplete="family-name" className="block w-full rounded-md border bg-[#1C1C1C] border-[#636D79] py-1.5 text-white shadow-sm ring-0 ring-inset focus:ring-0 sm:leading-6 min-h-14 px-3 text-base font-sf" />
                                         </div>
                                     </div>
                                     <div className="sm:col-span-6">
                                         <label htmlFor="email" className="block text-base font-sf leading-6 text-white">Email address</label>
                                         <div className="mt-2">
-                                            <input id="email" name="email" type="email" autocomplete="email" className="block w-full rounded-md border bg-[#1C1C1C] border-[#636D79] py-1.5 text-white shadow-sm ring-0 ring-inset focus:ring-0 sm:leading-6 min-h-14 px-3 text-base font-sf" />
+                                            <input id="email" name="email" type="email" autoComplete="email" className="block w-full rounded-md border bg-[#1C1C1C] border-[#636D79] py-1.5 text-white shadow-sm ring-0 ring-inset focus:ring-0 sm:leading-6 min-h-14 px-3 text-base font-sf" />
                                         </div>
                                     </div>
                                 </div>

@@ -28,8 +28,8 @@ const ServicePage = () => {
                         </div>
                         <div className="lg:col-span-6">
                             <div className="justify-end flex">
-                            <button className="hidden lg:inline-flex items-center gap-x-3 text-lg xl:text-2xl text-black font-clash-medium px-8 py-3 bg-white hover:bg-[#6F0000] border border-white border-solid rounded-[79px]"><span>Know more</span> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" class="size-6">
-                                    <path strokeLinecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                            <button className="hidden lg:inline-flex items-center gap-x-3 text-lg xl:text-2xl text-black font-clash-medium px-8 py-3 bg-white hover:bg-[#6F0000] border border-white border-solid rounded-[79px]"><span>Know more</span> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-6">
+                                    <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
                                     </svg>
                             </button>
                             </div>
@@ -46,8 +46,8 @@ const ServicePage = () => {
                                 <Image src={ServiceImage} alt="Service Image" className="rounded-lg lg:rounded-[50px]"></Image>
                                 
                             </div>
-                            <button className="lg:hidden inline-flex items-center gap-x-3 mt-5 text-base lg:text-lg xl:text-2xl text-black font-clash-medium py-2 px-4 lg:px-8 lg:py-3 bg-white hover:bg-[#6F0000] border border-white border-solid rounded-[79px]"><span>Know more</span> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" class="size-6">
-                                    <path strokeLinecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                            <button className="lg:hidden inline-flex items-center gap-x-3 mt-5 text-base lg:text-lg xl:text-2xl text-black font-clash-medium py-2 px-4 lg:px-8 lg:py-3 bg-white hover:bg-[#6F0000] border border-white border-solid rounded-[79px]"><span>Know more</span> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-6">
+                                    <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
                                     </svg>
                             </button>
                         </div>

@@ -24,9 +24,9 @@ const AboutPage = () => {
                             </div>
                         </section>
                     </div>
-                    <div class="relative px-4 lg:px-8 max-w-7xl mx-auto">
-                        <div class="flex items-center" aria-hidden="true">
-                            <div class="w-full border-t border-white/10"></div>
+                    <div className="relative px-4 lg:px-8 max-w-7xl mx-auto">
+                        <div className="flex items-center" aria-hidden="true">
+                            <div className="w-full border-t border-white/10"></div>
                         </div>
                     </div>
                     {/* <!-- Shellcode section --> */}

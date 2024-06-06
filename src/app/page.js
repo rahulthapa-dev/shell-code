@@ -134,7 +134,7 @@ const HomePage = () => {
                             </div>
                             {/* <!-- About section --> */}
                             <section className="py-16 relative overflow-hidden">
-                                <div class="mx-auto max-w-7xl px-4 lg:px-8 relative z-10">
+                                <div className="mx-auto max-w-7xl px-4 lg:px-8 relative z-10">
                                     <div className="lg:grid lg:grid-cols-12 lg:gap-8 mb-6">
                                         <div className="lg:col-span-7 pb-5 lg:pb-20">
                                             <Link href="/about" className="h2 font-clash-bold text-white/60 text-[38px] lg:text-4xl xl:text-7xl section-title relative pr-3 lg:pr-52 lg:w-auto inline-block w-full uppercase">About us</Link>
@@ -355,7 +355,7 @@ const HomePage = () => {
                         <div className="mx-auto max-w-4xl px-6 lg:px-8 relative text-center pt-10 lg:pt-20">
                         <button className="text-[#EA1C1C] border border-[#EA1C1C] border-solid font-sf text-base lg:text-2xl bg-white rounded-full py-2 px-4 lg:px-6 lg:py-3 inline-flex items-center gap-x-2 custom-shadow">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-7">
-                        <path fill-rule="evenodd" d="M3 6a3 3 0 0 1 3-3h12a3 3 0 0 1 3 3v12a3 3 0 0 1-3 3H6a3 3 0 0 1-3-3V6Zm14.25 6a.75.75 0 0 1-.22.53l-2.25 2.25a.75.75 0 1 1-1.06-1.06L15.44 12l-1.72-1.72a.75.75 0 1 1 1.06-1.06l2.25 2.25c.141.14.22.331.22.53Zm-10.28-.53a.75.75 0 0 0 0 1.06l2.25 2.25a.75.75 0 1 0 1.06-1.06L8.56 12l1.72-1.72a.75.75 0 1 0-1.06-1.06l-2.25 2.25Z" clip-rule="evenodd" />
+                        <path fill-rule="evenodd" d="M3 6a3 3 0 0 1 3-3h12a3 3 0 0 1 3 3v12a3 3 0 0 1-3 3H6a3 3 0 0 1-3-3V6Zm14.25 6a.75.75 0 0 1-.22.53l-2.25 2.25a.75.75 0 1 1-1.06-1.06L15.44 12l-1.72-1.72a.75.75 0 1 1 1.06-1.06l2.25 2.25c.141.14.22.331.22.53Zm-10.28-.53a.75.75 0 0 0 0 1.06l2.25 2.25a.75.75 0 1 0 1.06-1.06L8.56 12l1.72-1.72a.75.75 0 1 0-1.06-1.06l-2.25 2.25Z" clipRule="evenodd" />
                         </svg><span>Technologies we use</span>
                         </button>
                         <h2 className="h2 font-sf-medium leading:1 lg:leading-[3.5rem] xl:leading-[4.5rem] text-2xl xl:text-5xl clip-text-title pt-10 lg:pt-20 ">Simplify Your Workflow with our Technological Stack
@@ -378,7 +378,7 @@ const HomePage = () => {
                 <section className="bg-gray-950 py-16 relative">
                     <Image src={EllipseBig} alt="img ellipse" className="absolute right-0 top-0"></Image>
                     <Image src={ElementBlog} alt="Blog" className="absolute left-0 bottom-0 -z-0 w-full max-w-[550px]"></Image>
-                    <div class="mx-auto max-w-7xl px-4 lg:px-8 relative z-10">
+                    <div className="mx-auto max-w-7xl px-4 lg:px-8 relative z-10">
                         <div className="lg:grid lg:grid-cols-12 lg:gap-8 items-center mb-10">
                             <div className="lg:col-span-7 pb-6 lg:pb-0">
                                 <Link href="/blog" className="h2 font-clash-bold text-white/60 text-[38px] lg:text-4xl xl:text-8xl section-title relative pr-3 lg:pr-56 lg:w-auto inline-block w-full uppercase">Our Blogs</Link>
@@ -388,7 +388,7 @@ const HomePage = () => {
                             </div>
                         </div>
                     </div>
-                    <div class="mx-auto max-w-7xl ps-4 lg:ps-8 relative z-10">
+                    <div className="mx-auto max-w-7xl ps-4 lg:ps-8 relative z-10">
                         <BlogSlide/>
                     </div>
                 </section>

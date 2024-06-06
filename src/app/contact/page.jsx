@@ -19,7 +19,7 @@ const ContactPage = () => {
                             <span className="inline-flex">or just want to find out</span> <br className="hidden lg:inline-block" /> <span className="inline-flex">the score from yesterdays game</span><Image src={Icon2} alt="target" className="inline-flex ms-3 lg:w-auto w-[30px]"></Image>
                         </p>
                     </div>
-                    <div class="flex items-center py-3 lg:py-10"><div class="w-full border-t border-white/10"></div></div>
+                    <div className="flex items-center py-3 lg:py-10"><div className="w-full border-t border-white/10"></div></div>
                     <form className="lg:p-10 p-3">
                         <div className="space-y-12">
                             <div className="">
@@ -29,19 +29,19 @@ const ContactPage = () => {
                                         <div className="sm:col-span-3">
                                             <label htmlFor="first-name" className="block text-base font-sf leading-6 text-white">First name</label>
                                             <div className="mt-2">
-                                                <input type="text" name="first-name" id="first-name" autocomplete="given-name" className="block w-full rounded-md border bg-[#1C1C1C] border-[#636D79] py-1.5 text-white shadow-sm ring-0 ring-inset focus:ring-0 sm:leading-6 min-h-14 px-3 text-base font-sf" />
+                                                <input type="text" name="first-name" id="first-name" autoComplete="given-name" className="block w-full rounded-md border bg-[#1C1C1C] border-[#636D79] py-1.5 text-white shadow-sm ring-0 ring-inset focus:ring-0 sm:leading-6 min-h-14 px-3 text-base font-sf" />
                                             </div>
                                         </div>
                                         <div className="sm:col-span-3">
                                             <label htmlFor="last-name" className="block text-base font-sf leading-6 text-white">Last name</label>
                                             <div className="mt-2">
-                                                <input type="text" name="last-name" id="last-name" autocomplete="family-name" className="block w-full rounded-md border bg-[#1C1C1C] border-[#636D79] py-1.5 text-white shadow-sm ring-0 ring-inset focus:ring-0 sm:leading-6 min-h-14 px-3 text-base font-sf" />
+                                                <input type="text" name="last-name" id="last-name" autoComplete="family-name" className="block w-full rounded-md border bg-[#1C1C1C] border-[#636D79] py-1.5 text-white shadow-sm ring-0 ring-inset focus:ring-0 sm:leading-6 min-h-14 px-3 text-base font-sf" />
                                             </div>
                                         </div>
                                         <div className="sm:col-span-6">
                                             <label htmlFor="email" className="block text-base font-sf leading-6 text-white">Email address</label>
                                             <div className="mt-2">
-                                                <input id="email" name="email" type="email" autocomplete="email" className="block w-full rounded-md border bg-[#1C1C1C] border-[#636D79] py-1.5 text-white shadow-sm ring-0 ring-inset focus:ring-0 sm:leading-6 min-h-14 px-3 text-base font-sf" />
+                                                <input id="email" name="email" type="email" autoComplete="email" className="block w-full rounded-md border bg-[#1C1C1C] border-[#636D79] py-1.5 text-white shadow-sm ring-0 ring-inset focus:ring-0 sm:leading-6 min-h-14 px-3 text-base font-sf" />
                                             </div>
                                         </div>
                                         <div className="sm:col-span-6">
