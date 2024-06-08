@@ -511,6 +511,35 @@ ul.slick-dots li.slick-active button {
     width: 100%;
     max-width: 480px;
 }
+.bg-scroll-custom {
+    mask-image: none !important;
+    -webkit-mask-image: none !important;
+    position: relative;
+}
+.picker-item-selected {
+    font-weight: bold;
+    color: red;
+}
+.bg-scroll-custom::before,
+.bg-scroll-custom::after {
+    display: block;
+    position: absolute;
+    left: 0;
+    content: '';
+    height: 60px;
+    width: 100%;
+    z-index: 9;
+}
+.bg-scroll-custom::before {
+    top: 0;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,0) 5%, rgba(253,247,0,0.5326505602240896) 38%, rgba(253,247,0,0.6727065826330532) 64%, rgba(253,247,0,1) 95%);
+}
+.bg-scroll-custom::after {
+    bottom: 0;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,0) 5%, rgba(253,247,0,0.5326505602240896) 38%, rgba(253,247,0,0.6727065826330532) 64%, rgba(253,247,0,1) 95%);
+}
 /*  */
 @media (max-width: 991px) {
     div .space-y-32 > :not([hidden]) ~ :not([hidden]) {
