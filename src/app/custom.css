@@ -277,7 +277,7 @@ body {
 .bg-service {
     background-image: url(../assets/img/service-main.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: auto;
     background-position: top;
 }
 .ux-research {
