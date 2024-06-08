@@ -1,26 +1,49 @@
-import BlogImage from "@/components/Blog/BlogImage";
-import BlogDetail from "@/components/Blog/BlogDetail";
+'use client';
+ import BlogImage from "@/components/Blog/BlogImage";
+ import BlogDetail from "@/components/Blog/BlogDetail";
+ import React, { useEffect, useRef, useState } from 'react';
+
+import '@/assets/css/blog.css'
 
 const BlogContainer = () => {
+    const section1Ref = useRef(null);
+    const section2Ref = useRef(null);
+    const [stickyDiv, setStickyDiv] = useState(null);
+
+    useEffect(() => {
+        const handleScroll = () => {
+          const section1 = section1Ref.current;
+          const section2 = section2Ref.current;
+          const stickyDiv1 = section1.querySelector('.sticky');
+          const stickyDiv2 = section2.querySelector('.sticky');
+    
+          const section1Rect = section1.getBoundingClientRect();
+          const section2Rect = section2.getBoundingClientRect();
+    
+          if (section1Rect.top <= 0 && section2Rect.top > 0) {
+            setStickyDiv('section1');
+          } else if (section2Rect.top <= 0) {
+            setStickyDiv('section2');
+          } else {
+            setStickyDiv(null);
+          }
+        };
+    
+        window.addEventListener('scroll', handleScroll);
+        return () => window.removeEventListener('scroll', handleScroll);
+    }, []);
+
     return (
         <div className="space-y-8">
             <div className="lg:grid lg:grid-cols-12 lg:gap-8 px-3 lg:ps-8 lg:pe-0 pe-3">
                 <div className="lg:col-span-5 lg:space-y-8 space-y-6">
-                    <div>
+                    <div ref={section1Ref} className="section">
                         <BlogImage />
-                        <BlogDetail />
+                        <BlogDetail className={`child ${stickyDiv === 'section1' ? 'sticky' : ''}`}/>
                     </div>
-                    <div>
+                    <div ref={section2Ref} className="section">
                         <BlogImage />
-                        <BlogDetail />
-                    </div>
-                    <div>
-                        <BlogImage />
-                        <BlogDetail />
-                    </div>
-                    <div>
-                        <BlogImage />
-                        <BlogDetail />
+                        <BlogDetail className={`child ${stickyDiv === 'section2' ? 'sticky' : ''}`}/>
                     </div>
                 </div>
                 <div className="lg:col-span-7">

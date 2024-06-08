@@ -156,7 +156,7 @@ body {
     display: none;
 }
 .service-div p {
-    bottom: -100px;
+    bottom: -250px;
     transition: .2s ease-out;
 }
 .service-div:hover p {
