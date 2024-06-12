@@ -509,7 +509,7 @@ ul.slick-dots li.slick-active button {
 .service-div-center {
     min-width: 320px;
     width: 100%;
-    max-width: 480px;
+    max-width: 320px;
 }
 .bg-scroll-custom {
     mask-image: none !important;
@@ -539,6 +539,39 @@ ul.slick-dots li.slick-active button {
     bottom: 0;
     background: rgb(0,0,0);
     background: linear-gradient(180deg, rgba(0,0,0,0) 5%, rgba(253,247,0,0.5326505602240896) 38%, rgba(253,247,0,0.6727065826330532) 64%, rgba(253,247,0,1) 95%);
+}
+.arrow-scroll {
+    z-index: 99;
+    top: 44%;
+}
+.arrow-1 {
+    left: 0;
+}
+.arrow-2 {
+    right: 0;
+}
+.selectedScroll {
+    background:rgba(255,255,255,.5);
+    margin-top: 14px;
+    position: relative;
+}
+html {
+    scroll-behavior: smooth;
+}
+.about-img {
+    transform: translatey(0px);
+	animation: float 3s ease-in-out infinite;
+}
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-20px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
 }
 /*  */
 @media (max-width: 991px) {

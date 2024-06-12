@@ -84,7 +84,7 @@ const HomeComponent = () => {
                                         <div className="lg:col-span-4 items-center flex">
                                             <div className="relative p-2 lg:p-5 w-full">
                                                 <Link href="/about" className="w-full hidden lg:inline-block"><Image src={About} alt="about" className="w-full"></Image></Link>
-                                                <Link href="/services" className="inline-block lg:hidden"><Image src={ProjectMobile} alt="project"></Image></Link>
+                                                <Link href="#ProjectSection" onClick={() => setOpen(false)} className="inline-block lg:hidden"><Image src={ProjectMobile} alt="project"></Image></Link>
                                             </div>
                                         </div>
                                         <div className="lg:col-span-4 flex lg:inline-block">
@@ -95,7 +95,7 @@ const HomeComponent = () => {
                                             </Link>
                                             </div>
                                             <div className="relative p-2 lg:p-5">
-                                                <Link href="/about"><Image src={Project} alt="project" className="hidden lg:inline-block"></Image></Link>
+                                                <Link href="#ProjectSection" onClick={() => setOpen(false)}><Image src={Project} alt="project" className="hidden lg:inline-block"></Image></Link>
                                                 <Link href="/services"><Image src={ServiceMobile} alt="service" className="inline-block lg:hidden"></Image></Link>
                                             </div>
                                         </div>

@@ -9,7 +9,7 @@ import Link from 'next/link';
 
 const ProjectSection = () => {
     return (
-        <section className="bg-gray-950 py-16 project-bg">
+        <section id="ProjectSection" className="bg-gray-950 py-16 project-bg">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
                 <div className="lg:grid lg:grid-cols-12 lg:gap-8 pb-20">
                     <div className="lg:col-span-8">

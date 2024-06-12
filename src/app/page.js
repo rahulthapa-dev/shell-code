@@ -13,6 +13,8 @@ import AboutImage from "@/assets/img/about-us-img.png";
 import Service1 from "@/assets/img/service-1.png";
 import Service2 from "@/assets/img/service-2.png";
 import Service3 from "@/assets/img/service-3.png";
+import Arr1 from "@/assets/img/arr-l.png";
+import Arr2 from "@/assets/img/arr-2.png";
 
 import union from "@/assets/img/Union.png";
 
@@ -170,6 +172,8 @@ const HomePage = () => {
                             </div>
                             <div className="relative rounded-[30px] border-2 border-transparent hover:border-white overflow-hidden service-div service-div-center">
                                 {/* <Image src={Service2} alt="service 2" /> */}
+                                <Image src={Arr1} alt="arrw" className="absolute left-0 arrow-scroll arrow-1"/>
+                                <Image src={Arr2} alt="arrw" className="absolute right-0 arrow-scroll arrow-2"/>
                                 <ServiceScroll />
                             </div>
                             <div className="relative rounded-[30px] border-2 border-transparent hover:border-white overflow-hidden service-div">

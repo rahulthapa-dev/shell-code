@@ -18,8 +18,8 @@ const AboutPage = () => {
                         <section>
                             <div className="px-6 lg:px-8 mx-auto w-full max-w-[1480px]">
                                 <p className="font-clash-medium text-5xl lg:text-9xl xl:text-[190px] 2xl:text-[227px] leading-relaxed text-white text-start mx-auto">
-                                    <span>Let&apos;s create</span><span className="flex items-center gap-x-3"><span>the look</span><Image src={About} alt="about" className="w-[70px] lg:w-auto"></Image></span>
-                                    <span className="flex items-center gap-x-3"><Image src={And} alt="and" className="w-[70px] lg:w-auto"></Image><span>Feel for</span></span> <span>Your Project</span>
+                                    <span>Let&apos;s create</span><span className="flex items-center gap-x-3"><span>the look</span><Image src={About} alt="about" className="w-[70px] lg:w-auto about-img"></Image></span>
+                                    <span className="flex items-center gap-x-3"><Image src={And} alt="and" className="w-[70px] lg:w-auto about-img"></Image><span>Feel for</span></span> <span>Your Project</span>
                                 </p>
                             </div>
                         </section>
@@ -39,7 +39,7 @@ const AboutPage = () => {
                                     </p>
                                 </div>
                                 <div className="lg:col-span-6">
-                                    <div className="border lg:border-[3px] border-white border-solid p-2 lg:p-4 lg:w-[500px] lg:h-[500px] w-[180px] h-[180px] rounded-full mx-auto relative top-[-10%] right-[0]">
+                                    <div className="about-img border lg:border-[3px] border-white border-solid p-2 lg:p-4 lg:w-[500px] lg:h-[500px] w-[180px] h-[180px] rounded-full mx-auto relative top-[-10%] right-[0]">
                                         <div className="border lg:border-[3px] border-white border-solid p-4 size-full rounded-full flex items-center justify-center">
                                             <p className="text-center text-white font-clash-medium text-xl lg:text-4xl">About us</p>
                                         </div>
@@ -107,7 +107,7 @@ const AboutPage = () => {
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora
                                     </div>
                                 </div>
-                                <div className="border lg:border-[3px] border-white rounded-full text-white w-[260px] h-[260px] lg:w-[550px] lg:h-[550px] p-3 lg:p-5 lg:relative lg:left-[-20px] z-20 absolute top-[71%] left-[24%] lg:top-0">
+                                <div className="border lg:border-[3px] border-white rounded-full text-white w-[260px] h-[260px] lg:w-[550px] lg:h-[550px] p-3 lg:p-5 lg:relative lg:left-[-20px] z-20 absolute top-[71%] left-[24%] lg:top-0 about-img">
                                     <Image src={Founder} alt="Founder"></Image>
                                     <div className="font-clash-medium text-base lg:text-4xl text-black inline-flex px-6 py-2 lg:px-9 lg:py-5 absolute right-0 bottom-0 bg-name">Harshal Sir</div>
                                 </div>
