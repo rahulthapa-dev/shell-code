@@ -21,7 +21,7 @@ const Blog = () => {
                     <a href="" className="mt-5 text-xs lg:text-lg xl:text-2xl text-white font-clash-medium px-3 lg:px-8 py-3 bg-transparent hover:bg-[#6F0000] border border-white border-solid rounded-[79px]">Product Design</a>
                 </div>
             </div>
-            <div className="relative px-0 py-3 lg:py-16 lg:space-y-16 space-y-2">
+            <div className="relative px-0 py-6 lg:py-16 lg:space-y-16 space-y-2">
                 <div className="lg:grid lg:grid-cols-12 lg:gap-8">
                     <div className="lg:col-span-12">
                         <BlogContainer />

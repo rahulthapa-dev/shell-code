@@ -280,6 +280,12 @@ body {
     background-size: auto;
     background-position: top;
 }
+.bg-service-detail {
+    background-image: url(../assets/img/service.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: top;
+}
 .ux-research {
     background-image: url(../assets/img/ux-research.png);
     background-repeat: no-repeat;
@@ -289,8 +295,8 @@ body {
 }
 .ux-research:after {
     content: '';
-    right: 0;
-    bottom: 0;
+    right: -90px;
+    bottom: -16px;
     width: 610px;
     display: inline-block;
     background-image: url(../assets/img/shape.png);
@@ -558,6 +564,9 @@ ul.slick-dots li.slick-active button {
 html {
     scroll-behavior: smooth;
 }
+.service-div-wrap {
+    transform: scale(.8);
+}
 .about-img {
     transform: translatey(0px);
 	animation: float 3s ease-in-out infinite;
@@ -615,6 +624,12 @@ html {
     }
     .stack-wrap:after {
         background: linear-gradient(-90deg, rgba(0,0,0,1) 10%, rgba(13,13,13,0) 100%);
+    }
+    .service-div-center {
+        max-width: 100%;
+    }
+    .selectedScroll {
+        margin-top: 0;
     }
 }
 @media (min-width: 1024px) {

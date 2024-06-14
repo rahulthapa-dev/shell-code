@@ -17,7 +17,7 @@ const AboutPage = () => {
                     <div className="relative isolate overflow-hidden pb-10 lg:pb-24 pt-24 lg:space-y-32 space-y-16">
                         <section>
                             <div className="px-6 lg:px-8 mx-auto w-full max-w-[1480px]">
-                                <p className="font-clash-medium text-5xl lg:text-9xl xl:text-[190px] 2xl:text-[227px] leading-relaxed text-white text-start mx-auto">
+                                <p className="font-clash-medium text-4xl lg:text-9xl xl:text-[190px] 2xl:text-[227px] leading-relaxed text-white text-start mx-auto">
                                     <span>Let&apos;s create</span><span className="flex items-center gap-x-3"><span>the look</span><Image src={About} alt="about" className="w-[70px] lg:w-auto about-img"></Image></span>
                                     <span className="flex items-center gap-x-3"><Image src={And} alt="and" className="w-[70px] lg:w-auto about-img"></Image><span>Feel for</span></span> <span>Your Project</span>
                                 </p>

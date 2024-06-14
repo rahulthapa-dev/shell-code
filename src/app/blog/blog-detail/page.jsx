@@ -57,7 +57,7 @@ const BlogSingle = () => {
                         <p className="text-white font-clash-medium lg:text-xl text-base">
                         So, how can you apply Simon Sinek&apos;s Golden Circle to your own brand? Here are a few tips to get you started:
                         </p>
-                        <ol className="ol-custom lg:space-y-12 space-y-3">
+                        <ol className="ol-custom lg:space-y-12 space-y-3 ps-4">
                             <li className="text-xl">
                                 <p className="text-white font-clash-medium lg:text-xl text-base">
                                 Start with your Why: Take some time to think about the purpose or belief behind your brand. Why do you exist? What are you trying to achieve? This should be the foundation of your brand message.

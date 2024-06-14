@@ -1,5 +1,6 @@
 import Image from "next/image";
 import ReadMore from "@/assets/img/read-more.svg";
+import Link from 'next/link';
 const BlogDetail = () => {
     return (
         <div>
@@ -11,7 +12,7 @@ const BlogDetail = () => {
                 <p className="title font-sf text-white text-base lg:text-lg mb-4">
                 Dorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus.
                 </p>
-                <a href="" className="text-[#FF0000] font-sf-bold uppercase inline-flex items-center gap-x-3"><span>Read More</span> <span><Image src={ReadMore} alt="Read More"/></span></a>
+                <Link href="/blog/blog-detail" className="text-[#FF0000] font-sf-bold uppercase inline-flex items-center gap-x-3"><span>Read More</span> <span><Image src={ReadMore} alt="Read More"/></span></Link>
             </div>
         </div>
     )

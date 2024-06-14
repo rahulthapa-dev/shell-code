@@ -1,4 +1,5 @@
 import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 import ServiceCarousel from "@/components/ServiceCarousel"
 
 const ServicePage = () => {
@@ -19,7 +20,7 @@ const ServicePage = () => {
                 </div>
             </section>
             <ServiceCarousel />
-            
+            <Footer />
         </div>
     )
 }
