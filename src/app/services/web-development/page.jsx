@@ -85,7 +85,7 @@ const ServiceDetail = () => {
                                         </p>
                                     </div>
                                 </div>
-                                <div className="lg:col-span-6 lg:absolute bottom-0 right-[-60px] max-w-[650px]">
+                                <div className="lg:col-span-6 lg:absolute bottom-0 right-[-60px] max-w-[650px] lg:max-w-[750px]">
                                     <Image src={iPhoneImage} alt="Service Image" className="rounded-[50px]"></Image>
                                 </div>
                             </div>
