@@ -62,11 +62,163 @@ const ServiceCarousel = () => {
                 <div className="mx-auto max-w-7xl px-4 lg:px-8">
                     <div className="lg:grid lg:grid-cols-12 lg:gap-8">
                         <div className="lg:col-span-8">
-                            <h3 className="font-clash-medium text-4xl leading-[3rem] lg:text-5xl text-white">Application Development</h3>
+                            <h3 className="font-clash-medium text-4xl leading-[3rem] lg:text-5xl text-white">Mobile App Development</h3>
                         </div>
                         <div className="lg:col-span-4">
                             <div className="justify-end flex">
-                            <Link href="/services/web-development" className="hidden lg:inline-flex items-center gap-x-3 text-lg xl:text-2xl text-black font-clash-medium px-8 py-3 bg-white hover:bg-[#6F0000] hover:text-white border border-white border-solid rounded-[79px] "><span>Know more</span> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-6">
+                            <Link href="/services/mobile-app-development" className="hidden lg:inline-flex items-center gap-x-3 text-lg xl:text-2xl text-black font-clash-medium px-8 py-3 bg-white hover:bg-[#4b4242] hover:text-white border border-white border-solid rounded-[79px] "><span>Know more</span> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-6">
+                                    <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                                    </svg>
+                            </Link>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="lg:grid lg:grid-cols-12 lg:gap-8 mt-5">
+                        <div className="lg:col-span-12">
+                            <div className="relative overflow-hidden service-car">
+                                <div className="service-div-wrap lg:absolute lg:top-[15%] lg:right-[-68px]">
+                                <div className="service-desc lg:bg-white/90 py-6 lg:px-12 rounded-full lg:h-[525px] lg:w-[525px] flex items-center lg:justify-center lg:text-center ">
+                                    <p className="font-clash-medium text-2xl lg:text-black text-white/80">
+                                    Corem ipsum dolor sit amet, consectetur adipiscing elit.Corem ipsum dolor sit amet, consectetur adipiscing elit.Corem ipsum dolor sit amet, consectetur adipiscing elit.Corem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    </p>
+                                </div>
+                                </div>
+                                <Image src={ServiceImage} alt="Service Image" className="rounded-lg lg:rounded-[50px]"></Image>
+                                
+                            </div>
+                            <Link href="/services/web-development" className="lg:hidden inline-flex items-center gap-x-3 mt-5 text-base lg:text-lg xl:text-2xl text-black font-clash-medium py-2 px-4 lg:px-8 lg:py-3 bg-white hover:bg-[#6F0000] hover:text-white border border-white border-solid rounded-[79px]"><span>Know more</span> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-6">
+                                    <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                                    </svg>
+                            </Link>
+                        </div>
+                    </div>
+                </div>
+            </div>
+      </section>
+      <section className='pt-5 lg:pt-12'>
+            <div className="pb-16">
+                <div className="mx-auto max-w-7xl px-4 lg:px-8">
+                    <div className="lg:grid lg:grid-cols-12 lg:gap-8">
+                        <div className="lg:col-span-8">
+                            <h3 className="font-clash-medium text-4xl leading-[3rem] lg:text-5xl text-white">Web Development</h3>
+                        </div>
+                        <div className="lg:col-span-4">
+                            <div className="justify-end flex">
+                            <Link href="/services/web-development" className="hidden lg:inline-flex items-center gap-x-3 text-lg xl:text-2xl text-black font-clash-medium px-8 py-3 bg-white hover:bg-[#4b4242] hover:text-white border border-white border-solid rounded-[79px] "><span>Know more</span> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-6">
+                                    <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                                    </svg>
+                            </Link>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="lg:grid lg:grid-cols-12 lg:gap-8 mt-5">
+                        <div className="lg:col-span-12">
+                            <div className="relative overflow-hidden service-car">
+                                <div className="service-div-wrap lg:absolute lg:top-[15%] lg:right-[-68px]">
+                                <div className="service-desc lg:bg-white/90 py-6 lg:px-12 rounded-full lg:h-[525px] lg:w-[525px] flex items-center lg:justify-center lg:text-center ">
+                                    <p className="font-clash-medium text-2xl lg:text-black text-white/80">
+                                    Corem ipsum dolor sit amet, consectetur adipiscing elit.Corem ipsum dolor sit amet, consectetur adipiscing elit.Corem ipsum dolor sit amet, consectetur adipiscing elit.Corem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    </p>
+                                </div>
+                                </div>
+                                <Image src={ServiceImage} alt="Service Image" className="rounded-lg lg:rounded-[50px]"></Image>
+                                
+                            </div>
+                            <Link href="/services/web-development" className="lg:hidden inline-flex items-center gap-x-3 mt-5 text-base lg:text-lg xl:text-2xl text-black font-clash-medium py-2 px-4 lg:px-8 lg:py-3 bg-white hover:bg-[#6F0000] hover:text-white border border-white border-solid rounded-[79px]"><span>Know more</span> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-6">
+                                    <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                                    </svg>
+                            </Link>
+                        </div>
+                    </div>
+                </div>
+            </div>
+      </section>
+      <section className='pt-5 lg:pt-12'>
+            <div className="pb-16">
+                <div className="mx-auto max-w-7xl px-4 lg:px-8">
+                    <div className="lg:grid lg:grid-cols-12 lg:gap-8">
+                        <div className="lg:col-span-8">
+                            <h3 className="font-clash-medium text-4xl leading-[3rem] lg:text-5xl text-white">UI/UX Design</h3>
+                        </div>
+                        <div className="lg:col-span-4">
+                            <div className="justify-end flex">
+                            <Link href="/services/ui-ux-design" className="hidden lg:inline-flex items-center gap-x-3 text-lg xl:text-2xl text-black font-clash-medium px-8 py-3 bg-white hover:bg-[#4b4242] hover:text-white border border-white border-solid rounded-[79px] "><span>Know more</span> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-6">
+                                    <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                                    </svg>
+                            </Link>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="lg:grid lg:grid-cols-12 lg:gap-8 mt-5">
+                        <div className="lg:col-span-12">
+                            <div className="relative overflow-hidden service-car">
+                                <div className="service-div-wrap lg:absolute lg:top-[15%] lg:right-[-68px]">
+                                <div className="service-desc lg:bg-white/90 py-6 lg:px-12 rounded-full lg:h-[525px] lg:w-[525px] flex items-center lg:justify-center lg:text-center ">
+                                    <p className="font-clash-medium text-2xl lg:text-black text-white/80">
+                                    Corem ipsum dolor sit amet, consectetur adipiscing elit.Corem ipsum dolor sit amet, consectetur adipiscing elit.Corem ipsum dolor sit amet, consectetur adipiscing elit.Corem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    </p>
+                                </div>
+                                </div>
+                                <Image src={ServiceImage} alt="Service Image" className="rounded-lg lg:rounded-[50px]"></Image>
+                                
+                            </div>
+                            <Link href="/services/web-development" className="lg:hidden inline-flex items-center gap-x-3 mt-5 text-base lg:text-lg xl:text-2xl text-black font-clash-medium py-2 px-4 lg:px-8 lg:py-3 bg-white hover:bg-[#6F0000] hover:text-white border border-white border-solid rounded-[79px]"><span>Know more</span> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-6">
+                                    <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                                    </svg>
+                            </Link>
+                        </div>
+                    </div>
+                </div>
+            </div>
+      </section>
+      <section className='pt-5 lg:pt-12'>
+            <div className="pb-16">
+                <div className="mx-auto max-w-7xl px-4 lg:px-8">
+                    <div className="lg:grid lg:grid-cols-12 lg:gap-8">
+                        <div className="lg:col-span-8">
+                            <h3 className="font-clash-medium text-4xl leading-[3rem] lg:text-5xl text-white">Social Media Marketing</h3>
+                        </div>
+                        <div className="lg:col-span-4">
+                            <div className="justify-end flex">
+                            <Link href="/services/social-media-marketing" className="hidden lg:inline-flex items-center gap-x-3 text-lg xl:text-2xl text-black font-clash-medium px-8 py-3 bg-white hover:bg-[#4b4242] hover:text-white border border-white border-solid rounded-[79px] "><span>Know more</span> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-6">
+                                    <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                                    </svg>
+                            </Link>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="lg:grid lg:grid-cols-12 lg:gap-8 mt-5">
+                        <div className="lg:col-span-12">
+                            <div className="relative overflow-hidden service-car">
+                                <div className="service-div-wrap lg:absolute lg:top-[15%] lg:right-[-68px]">
+                                <div className="service-desc lg:bg-white/90 py-6 lg:px-12 rounded-full lg:h-[525px] lg:w-[525px] flex items-center lg:justify-center lg:text-center ">
+                                    <p className="font-clash-medium text-2xl lg:text-black text-white/80">
+                                    Corem ipsum dolor sit amet, consectetur adipiscing elit.Corem ipsum dolor sit amet, consectetur adipiscing elit.Corem ipsum dolor sit amet, consectetur adipiscing elit.Corem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    </p>
+                                </div>
+                                </div>
+                                <Image src={ServiceImage} alt="Service Image" className="rounded-lg lg:rounded-[50px]"></Image>
+                                
+                            </div>
+                            <Link href="/services/web-development" className="lg:hidden inline-flex items-center gap-x-3 mt-5 text-base lg:text-lg xl:text-2xl text-black font-clash-medium py-2 px-4 lg:px-8 lg:py-3 bg-white hover:bg-[#6F0000] hover:text-white border border-white border-solid rounded-[79px]"><span>Know more</span> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-6">
+                                    <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                                    </svg>
+                            </Link>
+                        </div>
+                    </div>
+                </div>
+            </div>
+      </section>
+      <section className='pt-5 lg:pt-12'>
+            <div className="pb-16">
+                <div className="mx-auto max-w-7xl px-4 lg:px-8">
+                    <div className="lg:grid lg:grid-cols-12 lg:gap-8">
+                        <div className="lg:col-span-8">
+                            <h3 className="font-clash-medium text-4xl leading-[3rem] lg:text-5xl text-white">Offline Software Management</h3>
+                        </div>
+                        <div className="lg:col-span-4">
+                            <div className="justify-end flex">
+                            <Link href="/services/offline-software-management" className="hidden lg:inline-flex items-center gap-x-3 text-lg xl:text-2xl text-black font-clash-medium px-8 py-3 bg-white hover:bg-[#4b4242] hover:text-white border border-white border-solid rounded-[79px] "><span>Know more</span> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-6">
                                     <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
                                     </svg>
                             </Link>
@@ -104,7 +256,7 @@ const ServiceCarousel = () => {
                         </div>
                         <div className="lg:col-span-4">
                             <div className="justify-end flex">
-                            <Link href="/services/web-development" className="hidden lg:inline-flex items-center gap-x-3 text-lg xl:text-2xl text-black font-clash-medium px-8 py-3 bg-white hover:bg-[#6F0000] hover:text-white border border-white border-solid rounded-[79px]"><span>Know more</span> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-6">
+                            <Link href="/services/sco" className="hidden lg:inline-flex items-center gap-x-3 text-lg xl:text-2xl text-black font-clash-medium px-8 py-3 bg-white hover:bg-[#6F0000] hover:text-white border border-white border-solid rounded-[79px]"><span>Know more</span> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-6">
                                     <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
                                     </svg>
                             </Link>
@@ -138,11 +290,239 @@ const ServiceCarousel = () => {
                 <div className="mx-auto max-w-7xl px-4 lg:px-8">
                     <div className="lg:grid lg:grid-cols-12 lg:gap-8">
                         <div className="lg:col-span-8">
-                            <h3 className="font-clash-medium text-4xl leading-[3rem] lg:text-5xl text-white">DevOps <br className="lg:hidden inline-block"/></h3>
+                            <h3 className="font-clash-medium text-4xl leading-[3rem] lg:text-5xl text-white">DevOps Consulting Service <br className="lg:hidden inline-block"/></h3>
                         </div>
                         <div className="lg:col-span-4">
                             <div className="justify-end flex">
-                            <Link href="/services/web-development" className="hidden lg:inline-flex items-center gap-x-3 text-lg xl:text-2xl text-black font-clash-medium px-8 py-3 bg-white hover:bg-[#6F0000] hover:text-white border border-white border-solid rounded-[79px]"><span>Know more</span> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-6">
+                            <Link href="/services/devops-consulting-service" className="hidden lg:inline-flex items-center gap-x-3 text-lg xl:text-2xl text-black font-clash-medium px-8 py-3 bg-white hover:bg-[#6F0000] hover:text-white border border-white border-solid rounded-[79px]"><span>Know more</span> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-6">
+                                    <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                                    </svg>
+                            </Link>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="lg:grid lg:grid-cols-12 lg:gap-8 mt-5">
+                        <div className="lg:col-span-12">
+                            <div className="relative overflow-hidden service-car">
+                            <div className="service-div-wrap lg:absolute lg:top-[15%] lg:right-[-68px]">
+                                <div className="service-desc lg:bg-white/90 py-6 lg:px-12 rounded-full lg:h-[525px] lg:w-[525px] flex items-center lg:justify-center lg:text-center ">
+                                    <p className="font-clash-medium text-2xl lg:text-black text-white/80">
+                                    Corem ipsum dolor sit amet, consectetur adipiscing elit.Corem ipsum dolor sit amet, consectetur adipiscing elit.Corem ipsum dolor sit amet, consectetur adipiscing elit.Corem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    </p>
+                                </div>
+                                </div>
+                                <Image src={ServiceImage} alt="Service Image" className="rounded-lg lg:rounded-[50px]"></Image>
+                                
+                            </div>
+                            <button className="lg:hidden inline-flex items-center gap-x-3 mt-5 text-base lg:text-lg xl:text-2xl text-black font-clash-medium py-2 px-4 lg:px-8 lg:py-3 bg-white hover:bg-[#6F0000] hover:text-white border border-white border-solid rounded-[79px]"><span>Know more</span> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-6">
+                                    <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                                    </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+      </section>
+      <section className='pt-5 lg:pt-12'>
+            <div className="pb-16">
+                <div className="mx-auto max-w-7xl px-4 lg:px-8">
+                    <div className="lg:grid lg:grid-cols-12 lg:gap-8">
+                        <div className="lg:col-span-8">
+                            <h3 className="font-clash-medium text-4xl leading-[3rem] lg:text-5xl text-white">Cloud Services <br className="lg:hidden inline-block"/></h3>
+                        </div>
+                        <div className="lg:col-span-4">
+                            <div className="justify-end flex">
+                            <Link href="/services/cloud-services" className="hidden lg:inline-flex items-center gap-x-3 text-lg xl:text-2xl text-black font-clash-medium px-8 py-3 bg-white hover:bg-[#6F0000] hover:text-white border border-white border-solid rounded-[79px]"><span>Know more</span> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-6">
+                                    <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                                    </svg>
+                            </Link>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="lg:grid lg:grid-cols-12 lg:gap-8 mt-5">
+                        <div className="lg:col-span-12">
+                            <div className="relative overflow-hidden service-car">
+                            <div className="service-div-wrap lg:absolute lg:top-[15%] lg:right-[-68px]">
+                                <div className="service-desc lg:bg-white/90 py-6 lg:px-12 rounded-full lg:h-[525px] lg:w-[525px] flex items-center lg:justify-center lg:text-center ">
+                                    <p className="font-clash-medium text-2xl lg:text-black text-white/80">
+                                    Corem ipsum dolor sit amet, consectetur adipiscing elit.Corem ipsum dolor sit amet, consectetur adipiscing elit.Corem ipsum dolor sit amet, consectetur adipiscing elit.Corem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    </p>
+                                </div>
+                                </div>
+                                <Image src={ServiceImage} alt="Service Image" className="rounded-lg lg:rounded-[50px]"></Image>
+                                
+                            </div>
+                            <button className="lg:hidden inline-flex items-center gap-x-3 mt-5 text-base lg:text-lg xl:text-2xl text-black font-clash-medium py-2 px-4 lg:px-8 lg:py-3 bg-white hover:bg-[#6F0000] hover:text-white border border-white border-solid rounded-[79px]"><span>Know more</span> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-6">
+                                    <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                                    </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+      </section>
+      <section className='pt-5 lg:pt-12'>
+            <div className="pb-16">
+                <div className="mx-auto max-w-7xl px-4 lg:px-8">
+                    <div className="lg:grid lg:grid-cols-12 lg:gap-8">
+                        <div className="lg:col-span-8">
+                            <h3 className="font-clash-medium text-4xl leading-[3rem] lg:text-5xl text-white">Annual Maintenance Contract <br className="lg:hidden inline-block"/></h3>
+                        </div>
+                        <div className="lg:col-span-4">
+                            <div className="justify-end flex">
+                            <Link href="/services/annual-maintenance-contract" className="hidden lg:inline-flex items-center gap-x-3 text-lg xl:text-2xl text-black font-clash-medium px-8 py-3 bg-white hover:bg-[#6F0000] hover:text-white border border-white border-solid rounded-[79px]"><span>Know more</span> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-6">
+                                    <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                                    </svg>
+                            </Link>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="lg:grid lg:grid-cols-12 lg:gap-8 mt-5">
+                        <div className="lg:col-span-12">
+                            <div className="relative overflow-hidden service-car">
+                            <div className="service-div-wrap lg:absolute lg:top-[15%] lg:right-[-68px]">
+                                <div className="service-desc lg:bg-white/90 py-6 lg:px-12 rounded-full lg:h-[525px] lg:w-[525px] flex items-center lg:justify-center lg:text-center ">
+                                    <p className="font-clash-medium text-2xl lg:text-black text-white/80">
+                                    Corem ipsum dolor sit amet, consectetur adipiscing elit.Corem ipsum dolor sit amet, consectetur adipiscing elit.Corem ipsum dolor sit amet, consectetur adipiscing elit.Corem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    </p>
+                                </div>
+                                </div>
+                                <Image src={ServiceImage} alt="Service Image" className="rounded-lg lg:rounded-[50px]"></Image>
+                                
+                            </div>
+                            <button className="lg:hidden inline-flex items-center gap-x-3 mt-5 text-base lg:text-lg xl:text-2xl text-black font-clash-medium py-2 px-4 lg:px-8 lg:py-3 bg-white hover:bg-[#6F0000] hover:text-white border border-white border-solid rounded-[79px]"><span>Know more</span> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-6">
+                                    <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                                    </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+      </section>
+      <section className='pt-5 lg:pt-12'>
+            <div className="pb-16">
+                <div className="mx-auto max-w-7xl px-4 lg:px-8">
+                    <div className="lg:grid lg:grid-cols-12 lg:gap-8">
+                        <div className="lg:col-span-8">
+                            <h3 className="font-clash-medium text-4xl leading-[3rem] lg:text-5xl text-white">API Development <br className="lg:hidden inline-block"/></h3>
+                        </div>
+                        <div className="lg:col-span-4">
+                            <div className="justify-end flex">
+                            <Link href="/services/api-development" className="hidden lg:inline-flex items-center gap-x-3 text-lg xl:text-2xl text-black font-clash-medium px-8 py-3 bg-white hover:bg-[#6F0000] hover:text-white border border-white border-solid rounded-[79px]"><span>Know more</span> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-6">
+                                    <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                                    </svg>
+                            </Link>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="lg:grid lg:grid-cols-12 lg:gap-8 mt-5">
+                        <div className="lg:col-span-12">
+                            <div className="relative overflow-hidden service-car">
+                            <div className="service-div-wrap lg:absolute lg:top-[15%] lg:right-[-68px]">
+                                <div className="service-desc lg:bg-white/90 py-6 lg:px-12 rounded-full lg:h-[525px] lg:w-[525px] flex items-center lg:justify-center lg:text-center ">
+                                    <p className="font-clash-medium text-2xl lg:text-black text-white/80">
+                                    Corem ipsum dolor sit amet, consectetur adipiscing elit.Corem ipsum dolor sit amet, consectetur adipiscing elit.Corem ipsum dolor sit amet, consectetur adipiscing elit.Corem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    </p>
+                                </div>
+                                </div>
+                                <Image src={ServiceImage} alt="Service Image" className="rounded-lg lg:rounded-[50px]"></Image>
+                                
+                            </div>
+                            <button className="lg:hidden inline-flex items-center gap-x-3 mt-5 text-base lg:text-lg xl:text-2xl text-black font-clash-medium py-2 px-4 lg:px-8 lg:py-3 bg-white hover:bg-[#6F0000] hover:text-white border border-white border-solid rounded-[79px]"><span>Know more</span> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-6">
+                                    <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                                    </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+      </section>
+      <section className='pt-5 lg:pt-12'>
+            <div className="pb-16">
+                <div className="mx-auto max-w-7xl px-4 lg:px-8">
+                    <div className="lg:grid lg:grid-cols-12 lg:gap-8">
+                        <div className="lg:col-span-8">
+                            <h3 className="font-clash-medium text-4xl leading-[3rem] lg:text-5xl text-white">Database Designing <br className="lg:hidden inline-block"/></h3>
+                        </div>
+                        <div className="lg:col-span-4">
+                            <div className="justify-end flex">
+                            <Link href="/services/database-desinging" className="hidden lg:inline-flex items-center gap-x-3 text-lg xl:text-2xl text-black font-clash-medium px-8 py-3 bg-white hover:bg-[#6F0000] hover:text-white border border-white border-solid rounded-[79px]"><span>Know more</span> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-6">
+                                    <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                                    </svg>
+                            </Link>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="lg:grid lg:grid-cols-12 lg:gap-8 mt-5">
+                        <div className="lg:col-span-12">
+                            <div className="relative overflow-hidden service-car">
+                            <div className="service-div-wrap lg:absolute lg:top-[15%] lg:right-[-68px]">
+                                <div className="service-desc lg:bg-white/90 py-6 lg:px-12 rounded-full lg:h-[525px] lg:w-[525px] flex items-center lg:justify-center lg:text-center ">
+                                    <p className="font-clash-medium text-2xl lg:text-black text-white/80">
+                                    Corem ipsum dolor sit amet, consectetur adipiscing elit.Corem ipsum dolor sit amet, consectetur adipiscing elit.Corem ipsum dolor sit amet, consectetur adipiscing elit.Corem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    </p>
+                                </div>
+                                </div>
+                                <Image src={ServiceImage} alt="Service Image" className="rounded-lg lg:rounded-[50px]"></Image>
+                                
+                            </div>
+                            <button className="lg:hidden inline-flex items-center gap-x-3 mt-5 text-base lg:text-lg xl:text-2xl text-black font-clash-medium py-2 px-4 lg:px-8 lg:py-3 bg-white hover:bg-[#6F0000] hover:text-white border border-white border-solid rounded-[79px]"><span>Know more</span> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-6">
+                                    <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                                    </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+      </section>
+      <section className='pt-5 lg:pt-12'>
+            <div className="pb-16">
+                <div className="mx-auto max-w-7xl px-4 lg:px-8">
+                    <div className="lg:grid lg:grid-cols-12 lg:gap-8">
+                        <div className="lg:col-span-8">
+                            <h3 className="font-clash-medium text-4xl leading-[3rem] lg:text-5xl text-white">Manual/Automation Testing <br className="lg:hidden inline-block"/></h3>
+                        </div>
+                        <div className="lg:col-span-4">
+                            <div className="justify-end flex">
+                            <Link href="/services/manual-automation-testing" className="hidden lg:inline-flex items-center gap-x-3 text-lg xl:text-2xl text-black font-clash-medium px-8 py-3 bg-white hover:bg-[#6F0000] hover:text-white border border-white border-solid rounded-[79px]"><span>Know more</span> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-6">
+                                    <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                                    </svg>
+                            </Link>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="lg:grid lg:grid-cols-12 lg:gap-8 mt-5">
+                        <div className="lg:col-span-12">
+                            <div className="relative overflow-hidden service-car">
+                            <div className="service-div-wrap lg:absolute lg:top-[15%] lg:right-[-68px]">
+                                <div className="service-desc lg:bg-white/90 py-6 lg:px-12 rounded-full lg:h-[525px] lg:w-[525px] flex items-center lg:justify-center lg:text-center ">
+                                    <p className="font-clash-medium text-2xl lg:text-black text-white/80">
+                                    Corem ipsum dolor sit amet, consectetur adipiscing elit.Corem ipsum dolor sit amet, consectetur adipiscing elit.Corem ipsum dolor sit amet, consectetur adipiscing elit.Corem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    </p>
+                                </div>
+                                </div>
+                                <Image src={ServiceImage} alt="Service Image" className="rounded-lg lg:rounded-[50px]"></Image>
+                                
+                            </div>
+                            <button className="lg:hidden inline-flex items-center gap-x-3 mt-5 text-base lg:text-lg xl:text-2xl text-black font-clash-medium py-2 px-4 lg:px-8 lg:py-3 bg-white hover:bg-[#6F0000] hover:text-white border border-white border-solid rounded-[79px]"><span>Know more</span> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-6">
+                                    <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                                    </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+      </section>
+      <section className='pt-5 lg:pt-12'>
+            <div className="pb-16">
+                <div className="mx-auto max-w-7xl px-4 lg:px-8">
+                    <div className="lg:grid lg:grid-cols-12 lg:gap-8">
+                        <div className="lg:col-span-8">
+                            <h3 className="font-clash-medium text-4xl leading-[3rem] lg:text-5xl text-white">CRM/ERP Services <br className="lg:hidden inline-block"/></h3>
+                        </div>
+                        <div className="lg:col-span-4">
+                            <div className="justify-end flex">
+                            <Link href="/services/crm-erp-services" className="hidden lg:inline-flex items-center gap-x-3 text-lg xl:text-2xl text-black font-clash-medium px-8 py-3 bg-white hover:bg-[#6F0000] hover:text-white border border-white border-solid rounded-[79px]"><span>Know more</span> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-6">
                                     <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
                                     </svg>
                             </Link>

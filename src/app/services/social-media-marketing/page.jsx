@@ -8,7 +8,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import '@/assets/css/service-detail.css'; // Import your CSS file
 import ServiceImage from "@/assets/img/service-img.png";
 import iPhoneImage from "@/assets/img/iphone.png";
-
+import Link from 'next/link';
 gsap.registerPlugin(ScrollTrigger);
 
 const ServiceDetail = () => {
@@ -72,13 +72,13 @@ const ServiceDetail = () => {
                         <div className="mx-auto max-w-7xl px-4 lg:px-8">
                             <div className="lg:grid lg:grid-cols-12 lg:gap-8">
                                 <div className="lg:col-span-6">
-                                    <h3 className="font-clash-medium text-4xl lg:text-6xl text-white mb-9">Web Development</h3>
+                                    <h3 className="font-clash-medium text-4xl lg:text-6xl text-white mb-9">Social Media Marketing</h3>
                                     {/* <p className="font-clash-regular text-lg lg:text-3xl text-white mb-5">
                                         Forem ipsum dolor sit amet, consectetur adipiscing elit.
                                     </p> */}
                                     <div className="bg-gray-400/20 border border-gray-500 rounded-[32px] p-5 max-w-[400px]">
                                         <p className="font-sf text-xl lg:text-3xl text-white mb-2 lg:mb-0">
-                                            <em>“We make your business story live on the internet.”</em>
+                                            <em>“We make your business ‘socially attractive.”</em>
                                         </p>
                                         <p className="font-sf text-xl lg:text-3xl text-white">
                                             - Harshal Adarkar
@@ -93,31 +93,33 @@ const ServiceDetail = () => {
                     </section>
                     <section className="py-16 bg-[#0D0D0D] ux-research flex items-center">
                         <div className="mx-auto max-w-7xl px-4 lg:px-8 space-y-8 lg:space-y-16">
-                            <h3 className="font-clash-bold text-white text-3xl lg:mb-8 text-wrap">Uncover the First Impression of your Business </h3>
+                            <h3 className="font-clash-bold text-white text-3xl lg:mb-8 text-wrap">Make your Business Socially Extrovert</h3>
                             <p className="font-sf text-xl text-white/80">
-                            We mark the first impression of your digital business by building a website that can make the visitors go 'Oh my my! This is Amazing.', as  our web pacemaker has the ability and right formula to shoot the shot at the first instance; you as a business no longer need to rely on basic and ineffective websites. 
+                            Our <strong>social media marketing services for small businesses</strong> is an ode to become socially desirable and upbeat the competition. Our folks make the best plans that can make people think 'Oh, this is a cool brand' and make them hooked over your 'cool stuff' on social media. So, are you ready to turn your business into a cool brand, gaining social traction? 
+
                             </p>
-                            <p className="font-sf text-xl text-white/80">Our Tech Suite Ace the Web Game 
-                            </p>
+                            <p className="font-sf text-xl text-white/80">Fueling Apps with our Tech Stack</p>   
                             <div className="lg:grid lg:grid-cols-12 lg:gap-8 mt-8">
                                 <ul className="lg:col-span-6 text-white ul-custom space-y-1">
                                     <li>
-                                    ReactJS
+                                    Account Management
                                     </li>
                                     <li>
-                                    NextJS
+                                    Brand Building
                                     </li>
                                     <li>
-                                    React Three Fibre
+                                    Growth Strategies
                                     </li>
-                                    
                                 </ul>
                                 <ul className="lg:col-span-6 text-white ul-custom space-y-1">
                                     <li>
-                                    AngularJS
+                                    Marketing Campaigns
                                     </li>
                                     <li>
-                                    Angular 16
+                                    Engagement Activities
+                                    </li>
+                                    <li>
+                                    Content Creation
                                     </li>
                                 </ul>
                             </div>

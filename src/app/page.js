@@ -61,8 +61,8 @@ const HomePage = () => {
                                         </div>
                                     </div>
                                     <div className="text-center">
-                                        <h1 className="text-4xl font-bold tracking-tight text-white md:text-7xl font-clash-semibold uppercase clip-text">We bring your business on Internet</h1>
-                                        <p className="mt-6 text-base lg:text-lg leading-6 lg:leading-8 text-white/60 font-ibm-regular mx-auto max-w-2xl">Partner with us to leverage technologies and stay ahead in ever-evolving digital landscape.</p>
+                                        <h1 className="text-4xl font-bold tracking-tight text-white md:text-7xl font-clash-semibold uppercase clip-text">We Turn Your Business <br/>Into Digital Maverick </h1>
+                                        <p className="mt-6 text-base lg:text-lg leading-6 lg:leading-8 text-white/60 font-ibm-regular mx-auto max-w-2xl">Shellcode solutions is a supreme app development company, nailing growth adventures. </p>
                                         <div className="mt-10 flex items-center justify-center gap-x-6">
                                             <div className="lg:flex gap-x-8 space-y-3 lg:space-y-0">
                                                 <a href="" className="text-white font-ibm-regular text-base lg:text-lg flex gap-x-2 items-center">
@@ -139,10 +139,10 @@ const HomePage = () => {
                                 <div className="mx-auto max-w-7xl px-4 lg:px-8 relative z-10">
                                     <div className="lg:grid lg:grid-cols-12 lg:gap-8 mb-6">
                                         <div className="lg:col-span-7 pb-5 lg:pb-20">
-                                            <Link href="/about" className="h2 font-clash-bold text-white/60 text-[38px] lg:text-4xl xl:text-7xl section-title relative pr-3 lg:pr-52 lg:w-auto inline-block w-full uppercase">About us</Link>
+                                            <Link href="/about" className="h2 font-clash-bold text-white/60 text-[38px] lg:text-4xl xl:text-7xl section-title relative pr-3 lg:pr-52 lg:w-auto inline-block w-full uppercase">Know us</Link>
                                         </div>
                                         <div className="mt-2 lg:mb-0 mb-6 lg:col-span-5 lg:mt-0">
-                                            <p className="text-white/60">Korem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. </p>
+                                            <p className="text-white/60">We are the leading <b>Software Development Experts</b> in Pune as Shellcode Solutions, serving creative and result-oriented business solutions across India, that can help you crunch  success numbers without a second thought! So, sail through the journey of discovery and innovation, as we weave it.</p>
                                         </div>
                                     </div>
                                     <div className="lg:grid lg:grid-cols-12 lg:gap-8">
@@ -168,7 +168,7 @@ const HomePage = () => {
                         <div className="service-gallery md:flex gap-x-4 space-y-3">
                             <div className="relative rounded-[30px] border-2 border-transparent hover:border-white overflow-hidden service-div">
                                 <Image src={Service1} alt="service 1" />
-                                <p className="absolute text-white p-4 font-clash-regular text-xs lg:text-lg">Korem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, </p>
+                                <p className="absolute text-white p-4 font-clash-regular text-xs lg:text-lg">We at Shellcode Solutions, a <strong>Software Development  agency in Pune</strong> have the swag of experts when it comes to crafting the first look of your digital business - website.  </p>
                             </div>
                             <div className="relative rounded-[30px] border-2 border-transparent hover:border-white overflow-hidden service-div service-div-center">
                                 {/* <Image src={Service2} alt="service 2" /> */}
@@ -181,7 +181,7 @@ const HomePage = () => {
                             </div>
                         </div>
                         <p className="text-white/60 pt-10 font-clash-regular text-base lg:text-lg max-w-[750px]">
-                        Korem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, Korem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, 
+                        By attaching the strings of user-friendly elements, we provide services that will make you sit back and switch to different channels depicting various streamlined business functions, without any doubt!
                         </p>
                     </div>
                 </section>
@@ -360,9 +360,9 @@ const HomePage = () => {
                         <button className="text-[#EA1C1C] border border-[#EA1C1C] border-solid font-sf text-base lg:text-2xl bg-white rounded-full py-2 px-4 lg:px-6 lg:py-3 inline-flex items-center gap-x-2 custom-shadow">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-7">
                         <path fill-rule="evenodd" d="M3 6a3 3 0 0 1 3-3h12a3 3 0 0 1 3 3v12a3 3 0 0 1-3 3H6a3 3 0 0 1-3-3V6Zm14.25 6a.75.75 0 0 1-.22.53l-2.25 2.25a.75.75 0 1 1-1.06-1.06L15.44 12l-1.72-1.72a.75.75 0 1 1 1.06-1.06l2.25 2.25c.141.14.22.331.22.53Zm-10.28-.53a.75.75 0 0 0 0 1.06l2.25 2.25a.75.75 0 1 0 1.06-1.06L8.56 12l1.72-1.72a.75.75 0 1 0-1.06-1.06l-2.25 2.25Z" clipRule="evenodd" />
-                        </svg><span>Technologies we use</span>
+                        </svg><span>Our Tech Stake Looks Like this </span>
                         </button>
-                        <h2 className="h2 font-sf-medium leading:1 lg:leading-[3.5rem] xl:leading-[4.5rem] text-2xl xl:text-5xl clip-text-title pt-10 lg:pt-20 ">Simplify Your Workflow with our Technological Stack
+                        <h2 className="h2 font-sf-medium leading:1 lg:leading-[3.5rem] xl:leading-[4.5rem] text-2xl xl:text-5xl clip-text-title pt-10 lg:pt-20 ">Your Workflow Needs a <br/> Tech-gradation!
                         </h2>
                     </div>
                 </section>
@@ -370,7 +370,8 @@ const HomePage = () => {
                 <section className="bg-gray-950 pt-16 pb-10 lg:pb-0 testimonial-bg">
                     <div className="mx-auto max-w-7xl px-0 lg:px-0 relative">
                         <p className="subhead lead tracking-wider lg:tracking-[15px] uppercase text-[#E0E0E0] font-sf-medium text-base lg:text-xl text-center">Testimonials</p>
-                        <h2 className="text-xl lg:text-3xl xl:text-6xl font-clash-medium clip-text-title text-center pt-5 lg:pt-10">Don’t take our word for it. Over 1000+ people trust us.
+                        <h2 className="text-xl lg:text-3xl xl:text-6xl font-clash-medium clip-text-title text-center pt-5 lg:pt-10">1000+ People Believe in Us. <br/>What Amazed Them is… 
+
                         </h2>
                         <div className="py-10 lg:pt-32 pb-20 relative">
                             <Testimonial />
@@ -385,10 +386,11 @@ const HomePage = () => {
                     <div className="mx-auto max-w-7xl px-4 lg:px-8 relative z-10">
                         <div className="lg:grid lg:grid-cols-12 lg:gap-8 items-center mb-10">
                             <div className="lg:col-span-7 pb-6 lg:pb-0">
-                                <Link href="/blog" className="h2 font-clash-bold text-white/60 text-[38px] lg:text-4xl xl:text-8xl section-title relative pr-3 lg:pr-56 lg:w-auto inline-block w-full uppercase">Our Blogs</Link>
+                                <Link href="/blog" className="h2 font-clash-bold text-white/60 text-[38px] lg:text-4xl xl:text-8xl section-title relative pr-3 lg:pr-56 lg:w-auto inline-block w-full uppercase">Insight-witty Blogs</Link>
                             </div>
                             <div className="b-10 lg:mb-0 lg:col-span-5 lg:mt-0">
-                                <p className="text-white/60">Korem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. </p>
+                                <p className="text-white/60">Glance through our insightful and witty blogs that can help you stay updated without a quirk, as these include real-time knowledge that are relevant in today’s dynamic world. 
+                                </p>
                             </div>
                         </div>
                     </div>

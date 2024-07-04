@@ -8,7 +8,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import '@/assets/css/service-detail.css'; // Import your CSS file
 import ServiceImage from "@/assets/img/service-img.png";
 import iPhoneImage from "@/assets/img/iphone.png";
-
+import Link from 'next/link';
 gsap.registerPlugin(ScrollTrigger);
 
 const ServiceDetail = () => {
@@ -72,13 +72,13 @@ const ServiceDetail = () => {
                         <div className="mx-auto max-w-7xl px-4 lg:px-8">
                             <div className="lg:grid lg:grid-cols-12 lg:gap-8">
                                 <div className="lg:col-span-6">
-                                    <h3 className="font-clash-medium text-4xl lg:text-6xl text-white mb-9">Web Development</h3>
+                                    <h3 className="font-clash-medium text-4xl lg:text-6xl text-white mb-9">API Development</h3>
                                     {/* <p className="font-clash-regular text-lg lg:text-3xl text-white mb-5">
                                         Forem ipsum dolor sit amet, consectetur adipiscing elit.
                                     </p> */}
                                     <div className="bg-gray-400/20 border border-gray-500 rounded-[32px] p-5 max-w-[400px]">
                                         <p className="font-sf text-xl lg:text-3xl text-white mb-2 lg:mb-0">
-                                            <em>“We make your business story live on the internet.”</em>
+                                            <em>“We are the matchmakers of vivid applications!”</em>
                                         </p>
                                         <p className="font-sf text-xl lg:text-3xl text-white">
                                             - Harshal Adarkar
@@ -93,31 +93,29 @@ const ServiceDetail = () => {
                     </section>
                     <section className="py-16 bg-[#0D0D0D] ux-research flex items-center">
                         <div className="mx-auto max-w-7xl px-4 lg:px-8 space-y-8 lg:space-y-16">
-                            <h3 className="font-clash-bold text-white text-3xl lg:mb-8 text-wrap">Uncover the First Impression of your Business </h3>
+                            <h3 className="font-clash-bold text-white text-3xl lg:mb-8 text-wrap">Making your Apps Chit-Chat like Gossipmonge</h3>
                             <p className="font-sf text-xl text-white/80">
-                            We mark the first impression of your digital business by building a website that can make the visitors go 'Oh my my! This is Amazing.', as  our web pacemaker has the ability and right formula to shoot the shot at the first instance; you as a business no longer need to rely on basic and ineffective websites. 
-                            </p>
-                            <p className="font-sf text-xl text-white/80">Our Tech Suite Ace the Web Game 
-                            </p>
+                            Think of your software like two friends who are willing to gossip but have no access to each other. With our API Development service, we make it possible without a snag, enabling them to connect with each other without any hassle, or hesitation, as our services are to drive your software effortlessly. </p>
+                            <p className="font-sf text-xl text-white/80">
+                            Software Stack Taking the Lead</p>
                             <div className="lg:grid lg:grid-cols-12 lg:gap-8 mt-8">
                                 <ul className="lg:col-span-6 text-white ul-custom space-y-1">
                                     <li>
-                                    ReactJS
+                                    NodeJS
                                     </li>
                                     <li>
-                                    NextJS
+                                    Laravel
                                     </li>
                                     <li>
-                                    React Three Fibre
+                                    Codeigniter 
                                     </li>
-                                    
                                 </ul>
                                 <ul className="lg:col-span-6 text-white ul-custom space-y-1">
                                     <li>
-                                    AngularJS
+                                    Django
                                     </li>
                                     <li>
-                                    Angular 16
+                                    Dot Net
                                     </li>
                                 </ul>
                             </div>

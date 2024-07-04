@@ -18,8 +18,8 @@ const AboutPage = () => {
                         <section>
                             <div className="px-6 lg:px-8 mx-auto w-full max-w-[1480px]">
                                 <p className="font-clash-medium text-4xl lg:text-9xl xl:text-[190px] 2xl:text-[227px] leading-relaxed text-white text-start mx-auto">
-                                    <span>Let&apos;s create</span><span className="flex items-center gap-x-3"><span>the look</span><Image src={About} alt="about" className="w-[70px] lg:w-auto about-img"></Image></span>
-                                    <span className="flex items-center gap-x-3"><Image src={And} alt="and" className="w-[70px] lg:w-auto about-img"></Image><span>Feel for</span></span> <span>Your Project</span>
+                                    <span className="">We Sung Along </span><span className="flex items-center gap-x-3"><span className="">the Hardships</span><Image src={About} alt="about" className="w-[70px] lg:w-auto about-img"></Image></span>
+                                    <span className="flex items-center gap-x-3"><Image src={And} alt="and" className="w-[70px] lg:w-auto about-img"></Image><span>While We Your</span></span> <span className=""> ProjecDrove Successt</span>
                                 </p>
                             </div>
                         </section>
@@ -35,7 +35,7 @@ const AboutPage = () => {
                             <div className="lg:grid lg:grid-cols-12 lg:gap-8 pb-0 lg:pb-20 items-center">
                                 <div className="lg:col-span-6">
                                     <p className="text-white font-clash-medium text-2xl lg:text-5xl">
-                                    Founded in 2018, <span className="text-[#FFEA28]">Shellcode</span> is a development company with a passion for launching, renovating and promoting brands.
+                                    Founded in 2018, Our Journey <span className="text-[#FFEA28]">Shellcode</span> is Software Development Company, turning the stone of innovative ideas into execution.
                                     </p>
                                 </div>
                                 <div className="lg:col-span-6">
@@ -55,36 +55,36 @@ const AboutPage = () => {
                     <div className="px-4 lg:px-8 max-w-7xl mx-auto">
                         <div className="lg:grid lg:grid-cols-12 lg:gap-8 pb-10 lg:pb-20 items-start">
                             <div className="lg:col-span-6">
-                                <h2 className="text-white font-clash-medium text-4xl lg:text-7xl mb-3 lg:mb-0">Service</h2>
+                                <h2 className="text-white font-clash-medium text-4xl lg:text-7xl mb-3 lg:mb-0">Services</h2>
                             </div>
                             <div className="lg:col-span-6">
                                 <p className="uppercase text-white font-clash-medium text-lg lg:text-4xl">
-                                    We&apos;re much more then a ordinary company.
+                                    We are more than what you ask for. 
                                 </p>
                             </div>
                         </div>
                         <div className="lg:grid lg:grid-cols-12 lg:gap-y-8 pb-20 items-start">
-                            <div className="lg:col-span-4 bg-branding">
+                            <div className="lg:col-span-4 bg-branding h-full">
                                 <div className="text-white p-8 relative z-10 mb-4 lg:mb-0">
-                                    <h3 className="uppercase font-clash-medium text-3xl lg:text-[58px] mb-6 lg:mb-28">Branding</h3>
+                                    <h3 className="uppercase font-clash-medium text-3xl lg:text-[58px] mb-6 lg:mb-28">SEO </h3>
                                     <p className="font-clash-regular text-xl lg:text-2xl mb-10 lg:mb-28 text-center lg:text-left">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora
+                                    We aim to skyrocket your business visibility that it truly desires for, with our top-notch SEO practices, strategies and proven expertise. Getting your business rank is our priority.
                                     </p>
                                 </div>
                             </div>
-                            <div className="lg:col-span-4 bg-website mb-4">
+                            <div className="lg:col-span-4 bg-website mb-4 h-full">
                                 <div className="text-white p-8 relative z-10">
                                     <h3 className="uppercase font-clash-medium text-3xl lg:text-[58px] lg:mt-40 mt-10">Websites</h3>
                                     <p className="font-clash-regular text-xl lg:text-2xl mt-8 lg:mt-16">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora
+                                    Websites are made to unleash curiosity, so our folks make it appealing to the masses, and let it roll around the world, paved by continuous dedication and commitment. 
                                     </p>
                                 </div>
                             </div>
-                            <div className="lg:col-span-4 bg-more">
+                            <div className="lg:col-span-4 bg-more h-full">
                                 <div className="text-white p-8 relative z-10">
-                                    <h3 className="lowercase font-clash-medium text-3xl lg:text-[58px]  mb-10 lg:mb-28 ">and more...</h3>
+                                    <h3 className="lowercase font-clash-medium text-3xl lg:text-[58px]  mb-10 lg:mb-28 ">And Many More</h3>
                                     <p className="font-clash-regular text-xl lg:text-2xl mb-10 lg:mb-28">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora
+                                    This is just a beginning, a full adventure is yet to be explored, that will make you head over heels. Dwell into what your business demands, as we provide finest services. 
                                     </p>
                                 </div>
                             </div>
@@ -97,7 +97,7 @@ const AboutPage = () => {
                 {/* meet founder */}
                 <section className="bg-black py-16">
                     <div className="px-4 lg:px-8 relative">
-                        <p className="text-white font-clash-medium text-4xl lg:text-7xl mb-14">Meet Our Founder</p>
+                        <p className="text-white font-clash-medium text-4xl lg:text-7xl mb-14">Meet the Spearhead</p>
                         <div className="mx-auto max-w-6xl">
                             
                             <div className="lg:flex relative mb-[250px] lg:mb-0">

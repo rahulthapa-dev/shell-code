@@ -8,7 +8,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import '@/assets/css/service-detail.css'; // Import your CSS file
 import ServiceImage from "@/assets/img/service-img.png";
 import iPhoneImage from "@/assets/img/iphone.png";
-
+import Link from 'next/link';
 gsap.registerPlugin(ScrollTrigger);
 
 const ServiceDetail = () => {
@@ -72,13 +72,13 @@ const ServiceDetail = () => {
                         <div className="mx-auto max-w-7xl px-4 lg:px-8">
                             <div className="lg:grid lg:grid-cols-12 lg:gap-8">
                                 <div className="lg:col-span-6">
-                                    <h3 className="font-clash-medium text-4xl lg:text-6xl text-white mb-9">Web Development</h3>
+                                    <h3 className="font-clash-medium text-4xl lg:text-6xl text-white mb-9">Cloud Services</h3>
                                     {/* <p className="font-clash-regular text-lg lg:text-3xl text-white mb-5">
                                         Forem ipsum dolor sit amet, consectetur adipiscing elit.
                                     </p> */}
                                     <div className="bg-gray-400/20 border border-gray-500 rounded-[32px] p-5 max-w-[400px]">
                                         <p className="font-sf text-xl lg:text-3xl text-white mb-2 lg:mb-0">
-                                            <em>“We make your business story live on the internet.”</em>
+                                            <em>“We provide freshly baked virtual servers like a pro!”</em>
                                         </p>
                                         <p className="font-sf text-xl lg:text-3xl text-white">
                                             - Harshal Adarkar
@@ -93,31 +93,29 @@ const ServiceDetail = () => {
                     </section>
                     <section className="py-16 bg-[#0D0D0D] ux-research flex items-center">
                         <div className="mx-auto max-w-7xl px-4 lg:px-8 space-y-8 lg:space-y-16">
-                            <h3 className="font-clash-bold text-white text-3xl lg:mb-8 text-wrap">Uncover the First Impression of your Business </h3>
+                            <h3 className="font-clash-bold text-white text-3xl lg:mb-8 text-wrap">Dominate Cloud Computing Kingdom Now!</h3>
                             <p className="font-sf text-xl text-white/80">
-                            We mark the first impression of your digital business by building a website that can make the visitors go 'Oh my my! This is Amazing.', as  our web pacemaker has the ability and right formula to shoot the shot at the first instance; you as a business no longer need to rely on basic and ineffective websites. 
-                            </p>
-                            <p className="font-sf text-xl text-white/80">Our Tech Suite Ace the Web Game 
+                            Imagine a buffet offering a variety of delicious food-like storage, computing power and software, that can make any business go hungry! And the best part of this buffet? You would only pay for what your business desires. Looks pretty cool, right? Grab this deal now by connecting with us. 
                             </p>
                             <div className="lg:grid lg:grid-cols-12 lg:gap-8 mt-8">
                                 <ul className="lg:col-span-6 text-white ul-custom space-y-1">
                                     <li>
-                                    ReactJS
+                                    Operating System Assistance
                                     </li>
                                     <li>
-                                    NextJS
+                                    Compute Power
                                     </li>
                                     <li>
-                                    React Three Fibre
+                                    Storage Options
                                     </li>
                                     
                                 </ul>
                                 <ul className="lg:col-span-6 text-white ul-custom space-y-1">
                                     <li>
-                                    AngularJS
+                                    Scale Resources
                                     </li>
                                     <li>
-                                    Angular 16
+                                    Connection with VMs and other Cloud Resources
                                     </li>
                                 </ul>
                             </div>

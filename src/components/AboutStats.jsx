@@ -7,25 +7,25 @@ const faqs = [
         stat: "04",
         title: "Years of Experience",
         answer:
-        "Korem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan",
+        "These years have made us achieve astonishing success results in a platter full of challenges and bonanza for our coolest team.",
     },
     {
         stat: "234",
         title: "Project Completed",
         answer:
-        "Korem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan",
+        "Our work speaks louder than our words can. We make the projects go easy-peasy with the perfect knot of expertise and confidence.",
     },
     {
         stat: "500+",
         title: "Happy Customers",
         answer:
-        "Korem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan",
+        "When our clients are happy, we are the happiest. We stir the world for them to deliver ultimate satisfaction and excellence. ",
     },
     {
         stat: "69+",
         title: "Web & App",
         answer:
-        "Korem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan",
+        "Our team takes pride at delivering what they are specialized in. Web and App Development is where our passion and strength lies.",
     },
     // More questions...
 ];
