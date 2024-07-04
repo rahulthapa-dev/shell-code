@@ -95,7 +95,7 @@ const ServiceDetail = () => {
                         <div className="mx-auto max-w-7xl px-4 lg:px-8 space-y-8 lg:space-y-16">
                             <h3 className="font-clash-bold text-white text-3xl lg:mb-8 text-wrap"> Turning Nail-Biting Software into Sleek Thrills</h3>
                             <p className="font-sf text-xl text-white/80">
-                            Our team is like a Swiss Army of software testing, enabling them to run at the speed of espresso binge. Whether it's manual or automatic testing, we jump up high to roll the dice and make software dance with joy when users engage with it, without any bugs or technical glitches. 
+                            Our team is like a Swiss Army of software testing, enabling them to run at the speed of espresso binge. Whether it&apos;s manual or automatic testing, we jump up high to roll the dice and make software dance with joy when users engage with it, without any bugs or technical glitches. 
                             </p>
                             <div className="lg:grid lg:grid-cols-12 lg:gap-8 mt-8">
                                 <ul className="lg:col-span-6 text-white ul-custom space-y-1">
@@ -126,7 +126,7 @@ const ServiceDetail = () => {
                     </section>
                     <section className="py-10 lg:py-16 bg-[#0D0D0D] connect-us flex items-center">
                         <div className="mx-auto max-w-5xl sm:px-6 lg:px-8 space-y-16 text-center leading-10 lg:leading-[70px]">
-                            <p className="text-white text-2xl lg:text-6xl font-clash-medium">What's<br /> Cooking in your<br /> Mind?</p>
+                            <p className="text-white text-2xl lg:text-6xl font-clash-medium">What&apos;s<br /> Cooking in your<br /> Mind?</p>
                             <Link href="/contact" className="inline-flex items-center gap-x-3 text-lg xl:text-2xl text-white font-clash-medium px-8 py-3 bg-transparent hover:bg-[#6F0000] border border-white border-solid rounded-[79px]"><span>Tell us - CTA</span> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-6">
                                 <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
                             </svg>

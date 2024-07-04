@@ -8,6 +8,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import '@/assets/css/service-detail.css'; // Import your CSS file
 import ServiceImage from "@/assets/img/service-img.png";
 import iPhoneImage from "@/assets/img/iphone.png";
+import Link from 'next/link';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -95,7 +96,7 @@ const ServiceDetail = () => {
                         <div className="mx-auto max-w-7xl px-4 lg:px-8 space-y-8 lg:space-y-16">
                             <h3 className="font-clash-bold text-white text-3xl lg:mb-8 text-wrap">Uncover the First Impression of your Business </h3>
                             <p className="font-sf text-xl text-white/80">
-                            We mark the first impression of your digital business by building a website that can make the visitors go 'Oh my my! This is Amazing.', as  our web pacemaker has the ability and right formula to shoot the shot at the first instance; you as a business no longer need to rely on basic and ineffective websites. 
+                            We mark the first impression of your digital business by building a website that can make the visitors go &apos;Oh my my! This is Amazing.&apos;, as  our web pacemaker has the ability and right formula to shoot the shot at the first instance; you as a business no longer need to rely on basic and ineffective websites. 
                             </p>
                             <p className="font-sf text-xl text-white/80">Our Tech Suite Ace the Web Game 
                             </p>
@@ -125,7 +126,7 @@ const ServiceDetail = () => {
                     </section>
                     <section className="py-10 lg:py-16 bg-[#0D0D0D] connect-us flex items-center">
                         <div className="mx-auto max-w-5xl sm:px-6 lg:px-8 space-y-16 text-center leading-10 lg:leading-[70px]">
-                            <p className="text-white text-2xl lg:text-6xl font-clash-medium">What's<br /> Cooking in your<br /> Mind?</p>
+                            <p className="text-white text-2xl lg:text-6xl font-clash-medium">What&apos;s<br /> Cooking in your<br /> Mind?</p>
                             <Link href="/contact" className="inline-flex items-center gap-x-3 text-lg xl:text-2xl text-white font-clash-medium px-8 py-3 bg-transparent hover:bg-[#6F0000] border border-white border-solid rounded-[79px]"><span>Tell us - CTA</span> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-6">
                                 <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
                             </svg>

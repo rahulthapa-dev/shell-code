@@ -154,7 +154,7 @@ const HomePage = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <Image src={about} className="absolute right-0 -bottom-72 w-[50%]"></Image>
+                                <Image src={about} alt="about" className="absolute right-0 -bottom-72 w-[50%]"></Image>
                             </section>
                         </section>
                     </div>

@@ -95,7 +95,7 @@ const ServiceDetail = () => {
                         <div className="mx-auto max-w-7xl px-4 lg:px-8 space-y-8 lg:space-y-16">
                             <h3 className="font-clash-bold text-white text-3xl lg:mb-8 text-wrap">Make your Business Socially Extrovert</h3>
                             <p className="font-sf text-xl text-white/80">
-                            Our <strong>social media marketing services for small businesses</strong> is an ode to become socially desirable and upbeat the competition. Our folks make the best plans that can make people think 'Oh, this is a cool brand' and make them hooked over your 'cool stuff' on social media. So, are you ready to turn your business into a cool brand, gaining social traction? 
+                            Our <strong>social media marketing services for small businesses</strong> is an ode to become socially desirable and upbeat the competition. Our folks make the best plans that can make people think &apos;Oh, this is a cool brand&apos; and make them hooked over your &apos;cool stuff&apos; on social media. So, are you ready to turn your business into a cool brand, gaining social traction? 
 
                             </p>
                             <p className="font-sf text-xl text-white/80">Fueling Apps with our Tech Stack</p>   
@@ -127,7 +127,7 @@ const ServiceDetail = () => {
                     </section>
                     <section className="py-10 lg:py-16 bg-[#0D0D0D] connect-us flex items-center">
                         <div className="mx-auto max-w-5xl sm:px-6 lg:px-8 space-y-16 text-center leading-10 lg:leading-[70px]">
-                            <p className="text-white text-2xl lg:text-6xl font-clash-medium">What's<br /> Cooking in your<br /> Mind?</p>
+                            <p className="text-white text-2xl lg:text-6xl font-clash-medium">What&apos;s<br /> Cooking in your<br /> Mind?</p>
                             <Link href="/contact" className="inline-flex items-center gap-x-3 text-lg xl:text-2xl text-white font-clash-medium px-8 py-3 bg-transparent hover:bg-[#6F0000] border border-white border-solid rounded-[79px]"><span>Tell us - CTA</span> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-6">
                                 <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
                             </svg>
