@@ -8,7 +8,7 @@ import FacebookPixelScript from "@/components/FacebookPixelScript"
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Shell Code",
+  title: "ShellCode Solutions",
   description: "We bring your business on internet",
 };
 

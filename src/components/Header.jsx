@@ -4,6 +4,7 @@ import { Dialog, DialogPanel, DialogTitle, Transition, TransitionChild } from '@
 import Link from 'next/link';
 import Image from "next/image";
 import LogoImage from "@/assets/img/logo.svg";
+import LogoModalImage from "@/assets/img/shellcode.svg";
 import Blog from "@/assets/img/blogs.png";
 import BlogMobile from "@/assets/img/blog-m.png";
 import About from "@/assets/img/about-n.png";
@@ -50,7 +51,7 @@ const HomeComponent = () => {
                                         <div className="flex lg:flex-1">
                                             <Link href="/" className="-m-1.5 p-1.5">
                                             <span className="sr-only">Shell Code</span>
-                                            <Image className="h-6 xl:h-10 w-auto" src={LogoImage} alt="Shell-Code" />
+                                            <Image className="h-6 xl:h-10 w-auto" src={LogoModalImage} alt="Shell-Code" />
                                             </Link>
                                         </div>
                                         <div className="flex">
@@ -71,25 +72,25 @@ const HomeComponent = () => {
                                 <div className="relative pb-24 pt-10 p-4 lg:px-8">
                                     <div className="lg:grid lg:grid-cols-12 lg:gap-8">
                                         <div className="lg:col-span-4 flex lg:inline-block">
-                                            <Link href="/blog" className="relative p-2 lg:p-5">
+                                            <Link href="/blog" onClick={() => setOpen(false)} className="relative p-2 lg:p-5">
                                                 <Image src={Blog} alt="blog" className="hidden lg:inline-block"></Image>
                                                 <Image src={BlogMobile} alt="blog" className="inline-block lg:hidden"></Image>
                                             </Link>
                                             <div className="relative p-3 lg:p-5">
-                                                <Link href="/services" className="hidden lg:inline-block"><Image src={Service} alt="service" ></Image></Link>
+                                                <Link href="/services" onClick={() => setOpen(false)} className="hidden lg:inline-block"><Image src={Service} alt="service" ></Image></Link>
                                                 <Link href="/about" className="inline-block lg:hidden">
                                                 <Image src={AboutMobile} alt="About"></Image></Link>
                                             </div>
                                         </div>
                                         <div className="lg:col-span-4 items-center flex">
                                             <div className="relative p-2 lg:p-5 w-full">
-                                                <Link href="/about" className="w-full hidden lg:inline-block"><Image src={About} alt="about" className="w-full"></Image></Link>
+                                                <Link href="/about" onClick={() => setOpen(false)} className="w-full hidden lg:inline-block"><Image src={About} alt="about" className="w-full"></Image></Link>
                                                 <Link href="#ProjectSection" onClick={() => setOpen(false)} className="inline-block lg:hidden"><Image src={ProjectMobile} alt="project"></Image></Link>
                                             </div>
                                         </div>
                                         <div className="lg:col-span-4 flex lg:inline-block">
                                             <div className="relative p-2 lg:p-5">
-                                            <Link href="/contact">
+                                            <Link href="/contact" >
                                             <Image src={Contact} alt="contact" className="hidden lg:inline-block"></Image>
                                             <Image src={ContactMobile} alt="contact" className="inline-block lg:hidden"></Image>
                                             </Link>
