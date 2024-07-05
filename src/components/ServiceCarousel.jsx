@@ -252,7 +252,7 @@ const ServiceCarousel = () => {
                 <div className="mx-auto max-w-7xl px-4 lg:px-8">
                     <div className="lg:grid lg:grid-cols-12 lg:gap-8">
                         <div className="lg:col-span-8">
-                            <h3 className="font-clash-medium text-4xl leading-[3rem] lg:text-5xl text-white">SCO <br className="lg:hidden inline-block"/></h3>
+                            <h3 className="font-clash-medium text-4xl leading-[3rem] lg:text-5xl text-white">SEO <br className="lg:hidden inline-block"/></h3>
                         </div>
                         <div className="lg:col-span-4">
                             <div className="justify-end flex">

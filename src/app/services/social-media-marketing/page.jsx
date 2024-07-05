@@ -6,14 +6,64 @@ import React, { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import '@/assets/css/service-detail.css'; // Import your CSS file
-import ServiceImage from "@/assets/img/service-img.png";
+import FaqIcon from "@/assets/img/faq-icon.png";
 import iPhoneImage from "@/assets/img/iphone.png";
 import Link from 'next/link';
+import { useState } from 'react';
+import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/react';
 gsap.registerPlugin(ScrollTrigger);
+
+const faqs = [
+    {
+        title: "What is social media marketing? ",
+        answer:
+        "Social media marketing is the process of promoting products or services through platforms such as Facebook, Instagram, Twitter, LinkedIn, and others. It includes providing content, running advertisements, and interacting with people in order to raise brand awareness, drive traffic, and boost sales. To get this service, contact Shellcode Solutions, one of the best social media marketing agency in Pune.",
+    },
+    {
+        title: "What forms of content work best for social media?",
+        answer:
+        "The most effective sorts of social media content are photographs, videos, infographics, blogs, user-generated content, and interactive postings such as polls and quizzes. To increase reach and engagement, content should be entertaining, relevant, and platform-specific. To gain a profound understanding of this, get in touch with Shellcode Solutions, social media marketing agency in Pune.",
+    },
+    {
+        title: "What is the purpose of hashtags in social media marketing?",
+        answer:
+        "Hashtags help to organize material and boost visibility by making posts discoverable to those who search for or follow the tags. Use relevant, popular, and branded hashtags to increase engagement, reach, and attract new followers. Shellcode Solutions, a social media marketing agency in Pune ace at using relevant hashtags and keywords, get assistance today.",
+    },
+    {
+        title: "What are social media advertisements?",
+        answer:
+        "Social media advertising are sponsored adverts that appear on networks such as Facebook, Instagram, and LinkedIn. They cater to certain audiences based on demographics, hobbies, and habits. Ads might incorporate photos, videos, carousels, and other elements designed to improve visibility, traffic, and conversions. To gain results from paid ads, connect with Shellcode Solutions - a social media marketing agency in Pune.",
+    },
+    {
+        title: "How do you deal with unfavorable remarks or feedback?",
+        answer:
+        "We handle unfavorable comments or feedback by replying quickly and professionally, addressing the issue, and providing solutions. This strategy demonstrates that we value customer input and are committed to resolving concerns, thereby changing a poor experience into a positive one. To know more, contact us as we are one of the best social media marketing agencies in Pune.",
+    },
+    {
+        title: "How can your social media marketing services in Pune can help me get more followers?",
+        answer:
+        "To increase followers, we create high-quality, interesting content, use relevant hashtags, organize competitions and giveaways, collaborate with influencers, and engage with your audience on a regular basis. Paid advertising and targeted ads can also help increase following numbers. Our experts know how to ace this game and they take it smoothly.",
+    },
+    {
+        title: "How do you generate compelling social media content?",
+        answer:
+        "To develop engaging content, we at Shellcode Solutions, social media marketing agency in Pune  first analyze your audience, use captivating imagery, write catchy headlines, and use interactive components such as polls and quizzes. Posting frequently and employing a variety of content kinds, such as videos, infographics, and user-generated content, increases engagement.",
+    },
+    {
+        title: "What is social media analytics and how is it useful?",
+        answer:
+        "Social media analytics entails gathering and analyzing data from social media sites to assess performance and effectiveness. Key analytics include likes, shares, comments, follower growth, click-through rates, and conversion rates. These insights contribute to strategy optimization and ROI improvement. At shellcode, social media marketing agency in Pune we are specialize in choosing the right metrics to improve the performance. To get a quotation, connect with us.",
+    },
+    // More questions...
+];
 
 const ServiceDetail = () => {
     const wrapperRef = useRef(null);
+    const [openIndex, setOpenIndex] = useState(null);
 
+    const handleToggle = (index) => {
+        setOpenIndex(openIndex === index ? null : index);
+    };
     useEffect(() => {
         if (window.innerWidth > 991) {
             const sections = gsap.utils.toArray(".wrapper section");
@@ -128,7 +178,7 @@ const ServiceDetail = () => {
                     <section className="py-10 lg:py-16 bg-[#0D0D0D] connect-us flex items-center">
                         <div className="mx-auto max-w-5xl sm:px-6 lg:px-8 space-y-16 text-center leading-10 lg:leading-[70px]">
                             <p className="text-white text-2xl lg:text-6xl font-clash-medium">What&apos;s<br /> Cooking in your<br /> Mind?</p>
-                            <Link href="/contact" className="inline-flex items-center gap-x-3 text-lg xl:text-2xl text-white font-clash-medium px-8 py-3 bg-transparent hover:bg-[#6F0000] border border-white border-solid rounded-[79px]"><span>Tell us - CTA</span> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-6">
+                            <Link href="/contact" className="relative z-50 inline-flex items-center gap-x-3 text-lg xl:text-2xl text-white font-clash-medium px-8 py-3 bg-transparent hover:bg-[#6F0000] border border-white border-solid rounded-[79px]"><span>Tell us - CTA</span> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-6">
                                 <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
                             </svg>
                             </Link>
@@ -136,6 +186,50 @@ const ServiceDetail = () => {
                     </section>
                 </div>
             </div>
+            <section className="py-16 bg-[#0D0D0D] ux-research flex items-center overflow-hidden relative z-50">
+                <div className="mx-auto max-w-[600px] lg:max-w-[700px] px-4 lg:px-8 space-y-8 lg:space-y-8">
+                    <div>
+                        <div className="bg-[#272727] py-2 px-4 rounded-[8px] inline-flex items-center gap-x-3 mb-3">
+                            <Image src={FaqIcon} alt="Service Image" className="rounded-[50px]"></Image>
+                            <span className="text-[#8F8F8F] font-medium font-base">FAQS</span>
+                        </div>
+                        <h2 className="text-white text-2xl lg:text-4xl xl:text-5xl">Frequently Asked Questions</h2>
+                    </div>
+                    <dl className="mt-0 space-y-6 divide-y divide-white/10">
+                        {faqs.map((faq, index) => (
+                        <Disclosure as="div" key={index} className="p-3 xl:px-5 xl:py-3 bg-[#212121] rounded-[14px]" open={openIndex === index}>
+                            {({ open }) => (
+                            <>
+                                <dt>
+                                <DisclosureButton className="flex w-full items-center justify-between text-left text-white" onClick={() => handleToggle(index)}>
+                                    <div className="flex items-center ">
+                                        <span className="font-clash-medium text-base">{faq.title}</span>
+                                    </div>
+                                    <span className="ml-6 flex h-7 items-center">
+                                    {open ? (
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="lg:w-5 lg:h-5 w-4 h-4">
+                                        <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 15.75 7.5-7.5 7.5 7.5" />
+                                        </svg>
+                                    ) : (
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="lg:w-5 lg:h-5 w-4 h-4">
+                                        <path strokeLinecap="round" strokeLinejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                                        </svg>
+                                    )}
+                                    </span>
+                                </DisclosureButton>
+                                </dt>
+                                {openIndex === index && (
+                                <DisclosurePanel as="dd" className="mt-2 pr-12">
+                                    <p className="text-base text-white/60 font-clash-regular">{faq.answer}</p>
+                                </DisclosurePanel>
+                                )}
+                            </>
+                            )}
+                        </Disclosure>
+                        ))}
+                    </dl>
+                </div>
+            </section>
             <Footer />
         </div>
     )

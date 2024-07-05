@@ -65,7 +65,7 @@ const FooterComponent = () => {
                     </div>
                     <div className="sm:col-span-5">
                         <div className="bg-gray-700/20 lg:bg-[#171717] rounded-xl p-6 lg:p-11 mb-4">
-                            <h4 className="text-3xl font-sf-bold text-white mb-20">Let&apos;swork together</h4>
+                            <h4 className="text-3xl font-sf-bold text-white mb-20">Let&apos;s work together</h4>
                             <div className="font-sf-medium text-white/50 space-y-2">
                                 <p>
                                     <a href="">Sponsor a member deal</a>

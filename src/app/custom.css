@@ -305,7 +305,7 @@ body {
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: 270px 0;
-    z-index: 0;
+    z-index: -1;
 }
 .connect-us {
     background-image: url(../assets/img/connect.png);

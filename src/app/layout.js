@@ -3,6 +3,7 @@ import "./globals.css";
 import "./custom.css";
 import "@/assets/fonts/cash-display/css/clash-display.css";
 import "@/assets/fonts/sf-pro/stylesheet.css";
+import FacebookPixelScript from "@/components/FacebookPixelScript"
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -14,7 +15,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <FacebookPixelScript />
+      <body className={inter.className}>{children} </body>
     </html>
   );
 }

@@ -11,48 +11,48 @@ import iPhoneImage from "@/assets/img/iphone.png";
 import Link from 'next/link';
 import { useState } from 'react';
 import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/react';
-
 gsap.registerPlugin(ScrollTrigger);
+
 const faqs = [
     {
-        title: "Why is UI/UX design important for any business?",
+        title: "Why is SEO important for businesses?",
         answer:
-        "UI/UX design is critical because it directly affects user pleasure, engagement, and retention. A well-designed interface increases usability and accessibility, resulting in a favorable user experience. This can lead to increased client loyalty, improved conversion rates, and overall product/service success. To get a better UI/UX design, contact Shellcode, UX/UI designing company in Pune.",
+        "SEO is important since it improves your website's visibility on search engines, which leads to more organic traffic. Higher exposure means that more potential buyers will find your website, increasing brand awareness and reputation. Effective SEO also enhances user experience, which can lead to increased conversion rates and business growth.",
     },
     {
-        title: "Which tools do you use for UI/UX design?",
+        title: "What are SEO keywords and its importance?",
         answer:
-        "Our UI/UX developers in Pune employ a range of UI/UX design tools, such as Sketch, Figma, Adobe XD, InVision, and Axure. These tools enable us to produce wireframes, prototypes, and high-fidelity designs, allowing for successful collaboration and iteration throughout the design process, resulting in better navigation and performance. ",
+        "Keywords are precise words or phrases that people enter into search engines to find information. In SEO, improving your website content with relevant keywords helps search engines comprehend it and match it to user requests. Effective keyword research and usage are critical for boosting search ranks. To know more, contact us,SEO agency in Pune.",
     },
     {
-        title: "How does your UI/UX developer in Pune conduct user research?",
+        title: "What is on-page SEO and how can it help my business gain visibility?",
         answer:
-        "We conduct user research using various approaches such as surveys, interviews, usability testing, and analytics. This allows us to better understand user demands, behaviors, and pain spots, ensuring that the design is user-centered and satisfies the target audience's expectations and requirements, resulting in business trustworthiness and enhanced credibility.",
+        "On-page SEO is the process of optimizing individual web pages to increase their search engine ranking. This includes employing relevant keywords, optimizing meta tags (title and description), producing high-quality content, increasing internal linking, and guaranteeing mobile compatibility. These features help search engines understand and rank your content more efficiently.",
     },
     {
-        title: "What is a wireframe and what is its importance?",
+        title: "How does your SEO company in Pune conduct keyword research? ",
         answer:
-        "A wireframe is a low-fidelity visual guide that depicts the basic structure of a digital project. It outlines the layout, structure, and important aspects without going into design specifics. Wireframes assist visualize the basic flow and functioning of the product, and serve as a template for the design process.",
+        "Keyword research is the process of determining the terms and phrases that potential buyers use while searching for items or services in your business. Google Keyword Planner, Ahrefs, and SEMrush are all useful tools that we use to analyze search volume, competitiveness, and relevance. Effective keyword research ensures that your content matches what users are searching for.",
     },
     {
-        title: "What are user personas and how is it useful?",
+        title: "What is technical SEO and how does your professional SEO company approach it?",
         answer:
-        "User personas are fictional representations of target users based on research and data. They include demographics, goals, behaviors, and pain points to guide design decisions and ensure the product meets their needs and preferences. Our UI/UX developers in Pune make use of such personas to create a better user-friendly design.",
+        "Technical SEO is the process of improving a website's search engine rankings by optimizing its technical characteristics. Our SEO experts do it in a way that increases site speed, ensures mobile compatibility, using suitable URL architectures, applying structured data, and resolving crawl issues. We well-optimized site improves the user experience.",
     },
     {
-        title: "What is usability testing and how is it beneficial?",
+        title: "How do search engines rank websites?",
         answer:
-        "Usability testing is the process of analyzing a product with real users. Participants complete activities while observers record any problems or difficulties encountered. This assists in identifying usability issues, gathering user feedback, and improving the overall user experience prior to the product's final release.",
+        "Search engines rank websites based on a variety of criteria, including as relevancy, content quality, user experience, mobile friendliness, page speed, and the amount of high-quality backlinks. Algorithms use these variables to evaluate which sites are the most relevant and authoritative for specific search queries, and therefore rank them higher in search results.",
     },
     {
-        title: "What is a prototype and its importance?",
+        title: "What is a meta description, and why does it matter?",
         answer:
-        "A prototype is an interactive, high-fidelity replica of a finished product that simulates its functionality and interface. It enables designers and stakeholders to test and assess the design, usability, and user experience before development begins, ensuring that any flaws are resolved early on. To learn more about how we use prototypes, connect with Shellcode’s UI/UX developers in Pune.",
+        "A meta description is a concise overview of a webpage's content that appears in search engine results beneath the title. It's significant since it helps users understand the page's information and motivates them to visit your website. Well-written meta descriptions that include relevant keywords can boost click-through rates and SEO performance.",
     },
     {
-        title: "How does your UI/UX developer in Pune approach accessibility in design?",
+        title: "How does your SEO agency in Pune monitor SEO performance?",
         answer:
-        "They prioritize accessibility by adhering to rules such as WCAG, which ensure designs are usable by individuals with impairments. This involves offering text replacements for images, maintaining adequate color contrast, allowing keyboard navigation, and making interactive aspects accessible to screen readers.",
+        "Our SEO experts monitor SEO performance using Google Analytics, Google Search Console, and third-party platforms such as Ahrefs and SEMrush. Key indicators include organic traffic, keyword rankings, bounce rates, and conversion rates. We continuously keep on monitoring that helps us to find areas for development and evaluate the efficacy.",
     },
     // More questions...
 ];
@@ -122,13 +122,13 @@ const ServiceDetail = () => {
                         <div className="mx-auto max-w-7xl px-4 lg:px-8">
                             <div className="lg:grid lg:grid-cols-12 lg:gap-8">
                                 <div className="lg:col-span-6">
-                                    <h3 className="font-clash-medium text-4xl lg:text-6xl text-white mb-9">UI/UX Design</h3>
+                                    <h3 className="font-clash-medium text-4xl lg:text-6xl text-white mb-9">Search Engine Optimization</h3>
                                     {/* <p className="font-clash-regular text-lg lg:text-3xl text-white mb-5">
                                         Forem ipsum dolor sit amet, consectetur adipiscing elit.
                                     </p> */}
                                     <div className="bg-gray-400/20 border border-gray-500 rounded-[32px] p-5 max-w-[400px]">
                                         <p className="font-sf text-xl lg:text-3xl text-white mb-2 lg:mb-0">
-                                            <em>“We are the architects of poppy interactive clicks.”</em>
+                                            <em>“We make your business a smash hit on SERPs.”</em>
                                         </p>
                                         <p className="font-sf text-xl lg:text-3xl text-white">
                                             - Harshal Adarkar
@@ -143,32 +143,32 @@ const ServiceDetail = () => {
                     </section>
                     <section className="py-16 bg-[#0D0D0D] ux-research flex items-center">
                         <div className="mx-auto max-w-7xl px-4 lg:px-8 space-y-8 lg:space-y-16">
-                            <h3 className="font-clash-bold text-white text-3xl lg:mb-8 text-wrap">Make Your Website Super Engaging</h3>
+                            <h3 className="font-clash-bold text-white text-3xl lg:mb-8 text-wrap">Professional SEO Services are All Set Here!</h3>
                             <p className="font-sf text-xl text-white/80">
-                            We provide <strong>UI/UX Designing services in Pune</strong>, innovating designs that can act as a cherry to your web designing structure. With our sword of creativity and expert knowledge, we create poppy interactive CTA buttons, just like poppy graphic tees that instantly capture the eye. So, let us drive your website crazy with creative and business-relevant aesthetic design elements.
+                            Our close-knit squad takes SEO on a different land where your website is a king, as search queries would make their way to you, with just a click. Our <strong>SEO experts</strong>  go above the traditional methods to make your website rank exceptionally and take a global stance.
                             </p>
-                            <p className="font-sf text-xl text-white/80">Fueling Apps with our Tech Stack</p>   
                             <div className="lg:grid lg:grid-cols-12 lg:gap-8 mt-8">
                                 <ul className="lg:col-span-6 text-white ul-custom space-y-1">
                                     <li>
-                                    Create Whitespace Efficiency
+                                    Keyword Research
                                     </li>
                                     <li>
-                                    Use of Engaging Elements
+                                    Competitors Analysis 
                                     </li>
                                     <li>
-                                    Best Color Scheme
+                                    On and off-page SEO
                                     </li>
+                                    
                                 </ul>
                                 <ul className="lg:col-span-6 text-white ul-custom space-y-1">
                                     <li>
-                                    Clean Typography
+                                    SEO Audits 
                                     </li>
                                     <li>
-                                    Interactive CTA Buttons 
+                                    Local SEO
                                     </li>
                                     <li>
-                                    User-Friendly Navigation
+                                    Technical SEO
                                     </li>
                                 </ul>
                             </div>
@@ -176,7 +176,7 @@ const ServiceDetail = () => {
                     </section>
                     <section className="py-10 lg:py-16 bg-[#0D0D0D] connect-us flex items-center">
                         <div className="mx-auto max-w-5xl sm:px-6 lg:px-8 space-y-16 text-center leading-10 lg:leading-[70px]">
-                            <p className="text-white text-2xl lg:text-6xl font-clash-medium">What's<br /> Cooking in your<br /> Mind?</p>
+                            <p className="text-white text-2xl lg:text-6xl font-clash-medium">What&apos;s<br /> Cooking in your<br /> Mind?</p>
                             <Link href="/contact" className="relative z-50 inline-flex items-center gap-x-3 text-lg xl:text-2xl text-white font-clash-medium px-8 py-3 bg-transparent hover:bg-[#6F0000] border border-white border-solid rounded-[79px]"><span>Tell us - CTA</span> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-6">
                                 <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
                             </svg>
@@ -185,7 +185,7 @@ const ServiceDetail = () => {
                     </section>
                 </div>
             </div>
-            <section className="py-16 bg-[#0D0D0D] ux-research flex items-center overflow-hidden">
+            <section className="py-16 bg-[#0D0D0D] ux-research flex items-center overflow-hidden relative z-50">
                 <div className="mx-auto max-w-[600px] lg:max-w-[700px] px-4 lg:px-8 space-y-8 lg:space-y-8">
                     <div>
                         <div className="bg-[#272727] py-2 px-4 rounded-[8px] inline-flex items-center gap-x-3 mb-3">
