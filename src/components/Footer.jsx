@@ -4,6 +4,7 @@ import bgFooter from "@/assets/img/bg-contact.png";
 import linkedin from "@/assets/img/linkdin.svg";
 import twitter from "@/assets/img/x.svg";
 import insta from "@/assets/img/insta.svg";
+import Link from 'next/link';
 
 
 const FooterComponent = () => {
@@ -20,76 +21,42 @@ const FooterComponent = () => {
                         </div>
                         <div className="grid grid-cols-1 sm:grid-cols-12 space-y-6 lg:space-y-0  text-base">
                             <div className="sm:col-span-4 text-white">
-                                <p className="mb-4">Company</p>
                                 <ul className="text-white/50 space-y-2">
                                     <li>
-                                        <a href="">Our story</a>
+                                        <Link href="/">Home Page</Link>
                                     </li>
                                     <li>
-                                        <a href="">Support</a>
+                                        <Link href="/about">About Us</Link>
                                     </li>
                                     <li>
-                                        <a href="">Press</a>
+                                        <Link href="/services">Our Services</Link>
+                                    </li>
+                                    <li>
+                                        <Link href="/blog">Blogs</Link>
                                     </li>
                                 </ul>
                             </div>
-                            <div className="sm:col-span-4 text-white">
-                                <p className="mb-4">Company</p>
-                                <ul className="text-white/50 space-y-2">
-                                    <li>
-                                        <a href="">Our story</a>
-                                    </li>
-                                    <li>
-                                        <a href="">Support</a>
-                                    </li>
-                                    <li>
-                                        <a href="">Press</a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div className="sm:col-span-4 text-white space-y-2">
-                                <p className="mb-4">Company</p>
-                                <ul className="text-white/50 space-y-2">
-                                    <li>
-                                        <a href="">Our story</a>
-                                    </li>
-                                    <li>
-                                        <a href="">Support</a>
-                                    </li>
-                                    <li>
-                                        <a href="">Press</a>
-                                    </li>
-                                </ul>
-                            </div>
+                            
                         </div>
                     </div>
                     <div className="sm:col-span-5">
-                        <div className="bg-gray-700/20 lg:bg-[#171717] rounded-xl p-6 lg:p-11 mb-4">
+                        <div className="bg-gray-700/20 lg:bg-[#171717] rounded-xl p-6 lg:p-11 mb-5 sm:h-3/4 block">
                             <h4 className="text-3xl font-sf-bold text-white mb-20">Let&apos;s work together</h4>
-                            <div className="font-sf-medium text-white/50 space-y-2">
+                            <div className=" text-white/50 space-y-2 ">
                                 <p>
-                                    <a href="">Sponsor a member deal</a>
-                                </p>
-                                <p>
-                                    <a href="">Apply as mentor</a>
-                                </p>
-                                <p>
-                                    <a href="">Host a workshop</a>
-                                </p>
-                                <p>
-                                    <a href="">Join the team</a>
+                                    <Link href="/contact" className="border-dotted border-b border-[#5a5757]">Contact Us</Link>
                                 </p>
                             </div>
                         </div>
                         <div className="grid grid-cols-12 gap-x-6">
                             <div className="col-span-4 bg-gray-700/20 lg:bg-[#171717] rounded-xl p-6 text-center">
-                                <Image src={twitter} alt="Twitter" className="mx-auto"></Image>
+                                <Image src={twitter} alt="X" className="mx-auto"></Image>
                             </div>
                             <div className="col-span-4 bg-gray-700/20 lg:bg-[#171717] rounded-xl p-6 text-center">
                                 <Image src={linkedin} alt="Linkdin" className="mx-auto"></Image>
                             </div>
                             <div className="col-span-4 bg-gray-700/20 lg:bg-[#171717] rounded-xl p-6 text-center">
-                                <Image src={twitter} alt="twitter" className="mx-auto"></Image>
+                                <Image src={insta} alt="Insta" className="mx-auto"></Image>
                             </div>
                         </div>
                         

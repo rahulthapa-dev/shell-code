@@ -17,9 +17,9 @@ const AboutPage = () => {
                     <div className="relative isolate overflow-hidden pb-10 lg:pb-24 pt-24 lg:space-y-32 space-y-16">
                         <section>
                             <div className="px-6 lg:px-8 mx-auto w-full max-w-[1480px]">
-                                <p className="font-clash-medium text-4xl lg:text-9xl xl:text-[190px] 2xl:text-[227px] leading-relaxed text-white text-start mx-auto">
-                                    <span className="">We Sung Along </span><span className="flex items-center gap-x-3"><span className="">the Hardships</span><Image src={About} alt="about" className="w-[70px] lg:w-auto about-img"></Image></span>
-                                    <span className="flex items-center gap-x-3"><Image src={And} alt="and" className="w-[70px] lg:w-auto about-img"></Image><span>While We Your</span></span> <span className=""> ProjecDrove Successt</span>
+                                <p className="font-clash-medium text-xl sm:text-[50px] md:text-[70px] lg:text-[80px] xl:text-[100px] 2xl:text-[120px] md:leading-[84px] text-white text-start mx-auto">
+                                    <span className="mb-3 inline-block  md:leading-[84px]">We Sung Along </span><span className="flex items-center gap-x-3"><span className=" md:leading-[84px] me-6">the Hardships</span><Image src={About} alt="about" className="w-[70px] sm:w-[95px] md:w-[120px] xl:w-auto about-img"></Image></span>
+                                    <span className="flex items-center gap-x-3"><Image src={And} alt="and" className="w-[70px] sm:w-[95px] md:w-[120px] xl:w-auto about-img"></Image><span>While We Your</span></span> <span className=" md:leading-[84px]"> ProjecDrove Successt</span>
                                 </p>
                             </div>
                         </section>
