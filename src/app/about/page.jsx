@@ -19,7 +19,7 @@ const AboutPage = () => {
                             <div className="px-6 lg:px-8 mx-auto w-full max-w-[1480px]">
                                 <p className="font-clash-medium text-xl sm:text-[50px] md:text-[70px] lg:text-[80px] xl:text-[100px] 2xl:text-[120px] md:leading-[84px] text-white text-start mx-auto">
                                     <span className="mb-3 inline-block  md:leading-[84px]">We Sung Along </span><span className="flex items-center gap-x-3"><span className=" md:leading-[84px] me-6">the Hardships</span><Image src={About} alt="about" className="w-[70px] sm:w-[95px] md:w-[120px] xl:w-auto about-img"></Image></span>
-                                    <span className="flex items-center gap-x-3"><Image src={And} alt="and" className="w-[70px] sm:w-[95px] md:w-[120px] xl:w-auto about-img"></Image><span>While We Your</span></span> <span className=" md:leading-[84px]"> ProjecDrove Successt</span>
+                                    <span className="flex items-center gap-x-3"><Image src={And} alt="and" className="w-[70px] sm:w-[95px] md:w-[120px] xl:w-auto about-img"></Image><span>While We</span></span> <span className=" md:leading-[84px]"> Drove Success</span>
                                 </p>
                             </div>
                         </section>

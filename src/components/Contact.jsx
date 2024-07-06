@@ -1,6 +1,7 @@
 import Image from "next/image";
 import EllipseBig from "@/assets/img/ellipse-big.png";
 import ContactBg from "@/assets/img/contact-bg.png";
+import Link from 'next/link';
 
 const ContactSection = () => {
     return (
@@ -24,8 +25,8 @@ const ContactSection = () => {
                         <div className="grid grid-cols-12 gap-4 mb-3">
                             <label htmlFor="" className="text-white/50 me-5 col-span-4">Phone Number:</label>
                             <div className="text-white col-span-8">
-                                <p>+91 234 343 43 53</p>
-                                <p>+91 234 343 43 53</p>
+                                <a href="tel:8010658943">+91 801 065 89 43</a> <br />
+                                <a href="tel:8999357648">+91 899 935 76 48</a>
                             </div>
                         </div>
                         <div className="grid grid-cols-12 gap-4 mb-3">
