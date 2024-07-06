@@ -14,9 +14,9 @@ const ContactPage = () => {
                     <div className="text-center p-4 lg:p-10">
                         <p className="font-clash-semibold uppercase text-white lg:tracking-widest text-2xl lg:text-2xl mb-4 lg:mb-10">contact us</p>
                         <p className="text-white text-base lg:text-[54px] font-sf-medium leading-relaxed">
-                            <span className="inline-flex">Whether you have a question about</span> <br className="hidden lg:inline-block"/>
-                            <span className="fraunces-italic border-b border-white inline-flex">Our services</span> <Image src={Icon} alt="target" className="inline-flex me-3 lg:w-auto w-[30px]"></Image>
-                            <span className="inline-flex">or just want to find out</span> <br className="hidden lg:inline-block" /> <span className="inline-flex">the score from yesterdays game</span><Image src={Icon2} alt="target" className="inline-flex ms-3 lg:w-auto w-[30px]"></Image>
+                            <span className="inline-flex">Whether it&apos;s a Gupshup about your business, </span> <br className="hidden lg:inline-block"/>
+                            <span className="fraunces-italic border-b border-white inline-flex">or simply curious to know </span> <Image src={Icon} alt="target" className="inline-flex me-3 lg:w-auto w-[30px]"></Image>
+                            <span className="inline-flex">how we ace </span> <br className="hidden lg:inline-block" /> <span className="inline-flex">digital game</span><Image src={Icon2} alt="target" className="inline-flex ms-3 lg:w-auto w-[30px]"></Image>
                         </p>
                     </div>
                     <div className="flex items-center py-3 lg:py-10"><div className="w-full border-t border-white/10"></div></div>

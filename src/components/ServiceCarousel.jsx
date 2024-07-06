@@ -79,7 +79,7 @@ const ServiceCarousel = () => {
                                 <div className="service-div-wrap lg:absolute lg:top-[15%] lg:right-[-68px]">
                                 <div className="service-desc lg:bg-white/90 py-6 lg:px-12 rounded-full lg:h-[525px] lg:w-[525px] flex items-center lg:justify-center lg:text-center ">
                                     <p className="font-clash-medium text-2xl lg:text-black text-white/80">
-                                    Corem ipsum dolor sit amet, consectetur adipiscing elit.Corem ipsum dolor sit amet, consectetur adipiscing elit.Corem ipsum dolor sit amet, consectetur adipiscing elit.Corem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    We make mobile applications run faster than bugs. Our team is in constant motion of turning your words into a language, and language into an application that is easily known by everyone, without any errors or any glitch.
                                     </p>
                                 </div>
                                 </div>
@@ -117,7 +117,7 @@ const ServiceCarousel = () => {
                                 <div className="service-div-wrap lg:absolute lg:top-[15%] lg:right-[-68px]">
                                 <div className="service-desc lg:bg-white/90 py-6 lg:px-12 rounded-full lg:h-[525px] lg:w-[525px] flex items-center lg:justify-center lg:text-center ">
                                     <p className="font-clash-medium text-2xl lg:text-black text-white/80">
-                                    Corem ipsum dolor sit amet, consectetur adipiscing elit.Corem ipsum dolor sit amet, consectetur adipiscing elit.Corem ipsum dolor sit amet, consectetur adipiscing elit.Corem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    We mark the first impression of your digital business by building a website that can make the visitors go &apos;Oh my my! This is Amazing.&apos;, as  our web pacemaker has the ability.
                                     </p>
                                 </div>
                                 </div>
@@ -155,7 +155,7 @@ const ServiceCarousel = () => {
                                 <div className="service-div-wrap lg:absolute lg:top-[15%] lg:right-[-68px]">
                                 <div className="service-desc lg:bg-white/90 py-6 lg:px-12 rounded-full lg:h-[525px] lg:w-[525px] flex items-center lg:justify-center lg:text-center ">
                                     <p className="font-clash-medium text-2xl lg:text-black text-white/80">
-                                    Corem ipsum dolor sit amet, consectetur adipiscing elit.Corem ipsum dolor sit amet, consectetur adipiscing elit.Corem ipsum dolor sit amet, consectetur adipiscing elit.Corem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    We provide <strong>UI/UX Designing services in Pune</strong>, innovating designs that can act as a cherry to your web designing structure. With our sword of creativity and expert knowledge, we create poppy interactive CTA buttons.
                                     </p>
                                 </div>
                                 </div>
@@ -193,7 +193,7 @@ const ServiceCarousel = () => {
                                 <div className="service-div-wrap lg:absolute lg:top-[15%] lg:right-[-68px]">
                                 <div className="service-desc lg:bg-white/90 py-6 lg:px-12 rounded-full lg:h-[525px] lg:w-[525px] flex items-center lg:justify-center lg:text-center ">
                                     <p className="font-clash-medium text-2xl lg:text-black text-white/80">
-                                    Corem ipsum dolor sit amet, consectetur adipiscing elit.Corem ipsum dolor sit amet, consectetur adipiscing elit.Corem ipsum dolor sit amet, consectetur adipiscing elit.Corem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Our <strong>social media marketing services for small businesses</strong> is an ode to become socially desirable and upbeat the competition.
                                     </p>
                                 </div>
                                 </div>
@@ -231,7 +231,7 @@ const ServiceCarousel = () => {
                                 <div className="service-div-wrap lg:absolute lg:top-[15%] lg:right-[-68px]">
                                 <div className="service-desc lg:bg-white/90 py-6 lg:px-12 rounded-full lg:h-[525px] lg:w-[525px] flex items-center lg:justify-center lg:text-center ">
                                     <p className="font-clash-medium text-2xl lg:text-black text-white/80">
-                                    Corem ipsum dolor sit amet, consectetur adipiscing elit.Corem ipsum dolor sit amet, consectetur adipiscing elit.Corem ipsum dolor sit amet, consectetur adipiscing elit.Corem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    From creating to debugging, our team has mastered all the hats of software development in an unplugged space that can help you to stay in loop without breaking the consistency in work even in remote areas, where there is no internet.
                                     </p>
                                 </div>
                                 </div>
@@ -269,7 +269,7 @@ const ServiceCarousel = () => {
                                 <div className="service-div-wrap lg:absolute lg:top-[15%] lg:right-[-68px]">
                                 <div className="service-desc lg:bg-white/90 py-6 lg:px-12 rounded-full lg:h-[525px] lg:w-[525px] flex items-center lg:justify-center lg:text-center ">
                                     <p className="font-clash-medium text-2xl lg:text-black text-white/80">
-                                    Corem ipsum dolor sit amet, consectetur adipiscing elit.Corem ipsum dolor sit amet, consectetur adipiscing elit.Corem ipsum dolor sit amet, consectetur adipiscing elit.Corem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Our close-knit squad takes SEO on a different land where your website is a king, as search queries would make their way to you, with just a click.
                                     </p>
                                 </div>
                                 </div>
@@ -307,7 +307,7 @@ const ServiceCarousel = () => {
                             <div className="service-div-wrap lg:absolute lg:top-[15%] lg:right-[-68px]">
                                 <div className="service-desc lg:bg-white/90 py-6 lg:px-12 rounded-full lg:h-[525px] lg:w-[525px] flex items-center lg:justify-center lg:text-center ">
                                     <p className="font-clash-medium text-2xl lg:text-black text-white/80">
-                                    Corem ipsum dolor sit amet, consectetur adipiscing elit.Corem ipsum dolor sit amet, consectetur adipiscing elit.Corem ipsum dolor sit amet, consectetur adipiscing elit.Corem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Our DevOps consulting services are here to work like a duo-team of Sherlock Holmes and Dr. Waston, but with less-fighting scenes and more code-writing roles, that can make your competitors
                                     </p>
                                 </div>
                                 </div>
@@ -345,7 +345,7 @@ const ServiceCarousel = () => {
                             <div className="service-div-wrap lg:absolute lg:top-[15%] lg:right-[-68px]">
                                 <div className="service-desc lg:bg-white/90 py-6 lg:px-12 rounded-full lg:h-[525px] lg:w-[525px] flex items-center lg:justify-center lg:text-center ">
                                     <p className="font-clash-medium text-2xl lg:text-black text-white/80">
-                                    Corem ipsum dolor sit amet, consectetur adipiscing elit.Corem ipsum dolor sit amet, consectetur adipiscing elit.Corem ipsum dolor sit amet, consectetur adipiscing elit.Corem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Imagine a buffet offering a variety of delicious food-like storage, computing power and software, that can make any business go hungry!
                                     </p>
                                 </div>
                                 </div>
@@ -383,7 +383,7 @@ const ServiceCarousel = () => {
                             <div className="service-div-wrap lg:absolute lg:top-[15%] lg:right-[-68px]">
                                 <div className="service-desc lg:bg-white/90 py-6 lg:px-12 rounded-full lg:h-[525px] lg:w-[525px] flex items-center lg:justify-center lg:text-center ">
                                     <p className="font-clash-medium text-2xl lg:text-black text-white/80">
-                                    Corem ipsum dolor sit amet, consectetur adipiscing elit.Corem ipsum dolor sit amet, consectetur adipiscing elit.Corem ipsum dolor sit amet, consectetur adipiscing elit.Corem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    No matter how much tantrums like glitch, errors, network issues your tech software shoot, we handle it all from head to toe.
                                     </p>
                                 </div>
                                 </div>
@@ -421,7 +421,7 @@ const ServiceCarousel = () => {
                             <div className="service-div-wrap lg:absolute lg:top-[15%] lg:right-[-68px]">
                                 <div className="service-desc lg:bg-white/90 py-6 lg:px-12 rounded-full lg:h-[525px] lg:w-[525px] flex items-center lg:justify-center lg:text-center ">
                                     <p className="font-clash-medium text-2xl lg:text-black text-white/80">
-                                    Corem ipsum dolor sit amet, consectetur adipiscing elit.Corem ipsum dolor sit amet, consectetur adipiscing elit.Corem ipsum dolor sit amet, consectetur adipiscing elit.Corem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Think of your software like two friends who are willing to gossip but have no access to each other.
                                     </p>
                                 </div>
                                 </div>
@@ -459,7 +459,7 @@ const ServiceCarousel = () => {
                             <div className="service-div-wrap lg:absolute lg:top-[15%] lg:right-[-68px]">
                                 <div className="service-desc lg:bg-white/90 py-6 lg:px-12 rounded-full lg:h-[525px] lg:w-[525px] flex items-center lg:justify-center lg:text-center ">
                                     <p className="font-clash-medium text-2xl lg:text-black text-white/80">
-                                    Corem ipsum dolor sit amet, consectetur adipiscing elit.Corem ipsum dolor sit amet, consectetur adipiscing elit.Corem ipsum dolor sit amet, consectetur adipiscing elit.Corem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Think of us like an interior designer of data, who knows how to systematically arrange data at the right place with the finesse of Sheng Shui.
                                     </p>
                                 </div>
                                 </div>
@@ -497,7 +497,7 @@ const ServiceCarousel = () => {
                             <div className="service-div-wrap lg:absolute lg:top-[15%] lg:right-[-68px]">
                                 <div className="service-desc lg:bg-white/90 py-6 lg:px-12 rounded-full lg:h-[525px] lg:w-[525px] flex items-center lg:justify-center lg:text-center ">
                                     <p className="font-clash-medium text-2xl lg:text-black text-white/80">
-                                    Corem ipsum dolor sit amet, consectetur adipiscing elit.Corem ipsum dolor sit amet, consectetur adipiscing elit.Corem ipsum dolor sit amet, consectetur adipiscing elit.Corem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Our team is like a Swiss Army of software testing, enabling them to run at the speed of espresso binge.
                                     </p>
                                 </div>
                                 </div>
@@ -535,7 +535,7 @@ const ServiceCarousel = () => {
                             <div className="service-div-wrap lg:absolute lg:top-[15%] lg:right-[-68px]">
                                 <div className="service-desc lg:bg-white/90 py-6 lg:px-12 rounded-full lg:h-[525px] lg:w-[525px] flex items-center lg:justify-center lg:text-center ">
                                     <p className="font-clash-medium text-2xl lg:text-black text-white/80">
-                                    Corem ipsum dolor sit amet, consectetur adipiscing elit.Corem ipsum dolor sit amet, consectetur adipiscing elit.Corem ipsum dolor sit amet, consectetur adipiscing elit.Corem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Picture your sales and business process management as two faces of a coin that can either turn into heads (profit) or tails (chaos).
                                     </p>
                                 </div>
                                 </div>
