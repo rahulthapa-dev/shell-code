@@ -28,7 +28,7 @@ const SelectScroll = ({ itemHeight = 45 }) => {
             wheelMode="natural"
             itemHeight={itemHeight}
             height={itemHeight * 7}
-            itemStyle={pickerStyle}
+            // itemStyle={pickerStyle}
             selectedItemStyle={selectedItemStyle}
             className='text-black font-bold bg-[#F4EF14] text-lg bg-scroll-custom'
         >

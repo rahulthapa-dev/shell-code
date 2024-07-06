@@ -61,8 +61,11 @@ const ServiceDetail = () => {
     const wrapperRef = useRef(null);
     const [openIndex, setOpenIndex] = useState(null);
 
-    const handleToggle = (index) => {
-        setOpenIndex(openIndex === index ? null : index);
+    const handleToggle = (index, open) => {
+        if(index == openIndex)
+            setOpenIndex(null);
+        else
+            setOpenIndex(index);
     };
 
     useEffect(() => {
@@ -196,16 +199,16 @@ const ServiceDetail = () => {
                     </div>
                     <dl className="mt-0 space-y-6 divide-y divide-white/10">
                         {faqs.map((faq, index) => (
-                        <Disclosure as="div" key={index} className="p-3 xl:px-5 xl:py-3 bg-[#212121] rounded-[14px]" open={openIndex === index}>
+                        <Disclosure as="div" key={index} className="p-3 xl:px-5 xl:py-3 bg-[#212121] rounded-[14px]">
                             {({ open }) => (
                             <>
                                 <dt>
-                                <DisclosureButton className="flex w-full items-center justify-between text-left text-white" onClick={() => handleToggle(index)}>
+                                <DisclosureButton className="flex w-full items-center justify-between text-left text-white" onClick={() => handleToggle(index, open)}>
                                     <div className="flex items-center ">
                                         <span className="font-clash-medium text-base">{faq.title}</span>
                                     </div>
                                     <span className="ml-6 flex h-7 items-center">
-                                    {open ? (
+                                    {index == openIndex ? (
                                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="lg:w-5 lg:h-5 w-4 h-4">
                                         <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 15.75 7.5-7.5 7.5 7.5" />
                                         </svg>
@@ -217,11 +220,13 @@ const ServiceDetail = () => {
                                     </span>
                                 </DisclosureButton>
                                 </dt>
-                                {openIndex === index && (
-                                <DisclosurePanel as="dd" className="mt-2 pr-12">
-                                    <p className="text-base text-white/60 font-clash-regular">{faq.answer}</p>
-                                </DisclosurePanel>
-                                )}
+                               {
+                                    index == openIndex
+                                    &&
+                                    <DisclosurePanel as="dd" static={true} className="mt-2 pr-12">
+                                        <p className="text-base text-white/60 font-clash-regular">{faq.answer}</p>
+                                    </DisclosurePanel>
+                                }
                             </>
                             )}
                         </Disclosure>

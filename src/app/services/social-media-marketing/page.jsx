@@ -61,8 +61,11 @@ const ServiceDetail = () => {
     const wrapperRef = useRef(null);
     const [openIndex, setOpenIndex] = useState(null);
 
-    const handleToggle = (index) => {
-        setOpenIndex(openIndex === index ? null : index);
+    const handleToggle = (index, open) => {
+        if(index == openIndex)
+            setOpenIndex(null);
+        else
+            setOpenIndex(index);
     };
     useEffect(() => {
         if (window.innerWidth > 991) {
@@ -186,50 +189,52 @@ const ServiceDetail = () => {
                     </section>
                 </div>
             </div>
-            <section className="py-16 bg-[#0D0D0D] ux-research flex items-center overflow-hidden relative z-50">
-                <div className="mx-auto max-w-[600px] lg:max-w-[700px] px-4 lg:px-8 space-y-8 lg:space-y-8">
-                    <div>
-                        <div className="bg-[#272727] py-2 px-4 rounded-[8px] inline-flex items-center gap-x-3 mb-3">
-                            <Image src={FaqIcon} alt="Service Image" className="rounded-[50px]"></Image>
-                            <span className="text-[#8F8F8F] font-medium font-base">FAQS</span>
-                        </div>
-                        <h2 className="text-white text-2xl lg:text-4xl xl:text-5xl">Frequently Asked Questions</h2>
+            <section className="py-16 bg-[#0D0D0D] ux-research flex items-center overflow-hidden">
+            <div className="mx-auto max-w-[600px] lg:max-w-[700px] px-4 lg:px-8 space-y-8 lg:space-y-8">
+                <div>
+                    <div className="bg-[#272727] py-2 px-4 rounded-[8px] inline-flex items-center gap-x-3 mb-3">
+                        <Image src={FaqIcon} alt="Service Image" className="rounded-[50px]"></Image>
+                        <span className="text-[#8F8F8F] font-medium font-base">FAQS</span>
                     </div>
-                    <dl className="mt-0 space-y-6 divide-y divide-white/10">
-                        {faqs.map((faq, index) => (
-                        <Disclosure as="div" key={index} className="p-3 xl:px-5 xl:py-3 bg-[#212121] rounded-[14px]" open={openIndex === index}>
-                            {({ open }) => (
-                            <>
-                                <dt>
-                                <DisclosureButton className="flex w-full items-center justify-between text-left text-white" onClick={() => handleToggle(index)}>
-                                    <div className="flex items-center ">
-                                        <span className="font-clash-medium text-base">{faq.title}</span>
-                                    </div>
-                                    <span className="ml-6 flex h-7 items-center">
-                                    {open ? (
-                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="lg:w-5 lg:h-5 w-4 h-4">
-                                        <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 15.75 7.5-7.5 7.5 7.5" />
-                                        </svg>
-                                    ) : (
-                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="lg:w-5 lg:h-5 w-4 h-4">
-                                        <path strokeLinecap="round" strokeLinejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
-                                        </svg>
-                                    )}
-                                    </span>
-                                </DisclosureButton>
-                                </dt>
-                                {openIndex === index && (
-                                <DisclosurePanel as="dd" className="mt-2 pr-12">
+                    <h2 className="text-white text-2xl lg:text-4xl xl:text-5xl">Frequently Asked Questions</h2>
+                </div>
+                <dl className="mt-0 space-y-6 divide-y divide-white/10">
+                    {faqs.map((faq, index) => (
+                    <Disclosure as="div" key={index} className="p-3 xl:px-5 xl:py-3 bg-[#212121] rounded-[14px]">
+                        {({ open }) => (
+                        <>
+                            <dt>
+                            <DisclosureButton className="flex w-full items-center justify-between text-left text-white" onClick={() => handleToggle(index, open)}>
+                                <div className="flex items-center ">
+                                    <span className="font-clash-medium text-base">{faq.title}</span>
+                                </div>
+                                <span className="ml-6 flex h-7 items-center">
+                                {index == openIndex ? (
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="lg:w-5 lg:h-5 w-4 h-4">
+                                    <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 15.75 7.5-7.5 7.5 7.5" />
+                                    </svg>
+                                ) : (
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="lg:w-5 lg:h-5 w-4 h-4">
+                                    <path strokeLinecap="round" strokeLinejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                                    </svg>
+                                )}
+                                </span>
+                            </DisclosureButton>
+                            </dt>
+                            {
+                                index == openIndex
+                                &&
+                                <DisclosurePanel as="dd" static={true} className="mt-2 pr-12">
                                     <p className="text-base text-white/60 font-clash-regular">{faq.answer}</p>
                                 </DisclosurePanel>
-                                )}
-                            </>
-                            )}
-                        </Disclosure>
-                        ))}
-                    </dl>
-                </div>
-            </section>
+                            }
+                        </>
+                        )}
+                    </Disclosure>
+                    ))}
+                </dl>
+            </div>
+        </section>
             <Footer />
         </div>
     )
